@@ -122,7 +122,7 @@ Every factual field is an object, not a bare value:
   "past":      { "value": "كَتَبَ",   "src": ["mukhtar"], "status": "draft" },
   "imperfect": { "value": "يَكْتُبُ", "src": ["mukhtar"], "status": "draft" },
   "classification": [
-    { "scheme": "bina-35", "value": "bab-1-nasara", "src": ["mukhtar"], "status": "draft" },
+    { "scheme": "bina-35", "value": "bina-01", "src": ["mukhtar"], "status": "draft" },
     { "scheme": "wright",  "value": "I",            "src": ["wright-1896"], "status": "draft" }
   ],
   "masdar": [ { "value": "كِتَابَة", "src": ["lane"], "status": "draft" } ],
