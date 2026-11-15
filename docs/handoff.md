@@ -30,9 +30,9 @@ Read this together with `docs/charter.md` at the start of every new session. Upd
 
 **Owner to-dos**
 1. Review and merge the two pull requests (branch `phase-0` → `main`). Merging is the approval of: the licence files, the licence split (D-018), the ID scheme (D-015), the spelling rules (D-017).
-2. Check that the first run of the *validate* workflow is green (Actions tab of `openarabee-core`); it could not be checked from the session.
+2. Done: the *validate* workflow ran green on all commits of `phase-0` (owner's screenshot of 2026-11-15).
 3. Still open from the founding session: repository descriptions and website under *About*; two-factor authentication. (Default branch is `main` and `access-test` no longer exists: done.)
-4. Store the two `.bundle` files from the chat in Google Drive (folder «OpenArabee»), and reconnect the Drive connector with write permission if Claude should upload backups itself.
+4. Optional: move the Drive folder «OpenArabee-Backups» into «OpenArabee».
 5. O-1 (reviewer), O-9 (legal review of the CLA draft).
 
 **Next session: finish Phase 0, then Phase 1a**
@@ -42,7 +42,7 @@ Read this together with `docs/charter.md` at the start of every new session. Upd
 4. Phase 1a: root list from the Quranic Arabic Corpus counts (in `openarabee-quran`, see O-4), coverage matrix Form/bāb × root type.
 
 ## Backup to Google Drive
-`tools/backup.sh` writes a verified `git bundle` (restore: `git clone <file>.bundle`). On 2026-11-15 the Drive connector could read but not write (creating the folder «OpenArabee-Backups» and uploading both failed with a missing-permission error), so the two bundles were handed to the owner as files in the chat to store in Drive himself. To let Claude upload: reconnect Google Drive in the Claude settings and allow file creation. The owner's folder «OpenArabee» stays read-only for Claude either way; the plan is a folder «OpenArabee-Backups» created by the connector.
+`tools/backup.sh` writes a verified `git bundle` (restore: `git clone <file>.bundle`). Upload it to the Drive folder «OpenArabee-Backups» (id `1rcwM0TS1l1f9szQKrLzIhfPwZMYJlphl`, created by the connector on 2026-11-15, so Claude can write there). The owner's folder «OpenArabee» is read-only for Claude. First bundles uploaded on 2026-11-15: `openarabee-core-20261115-1931.bundle` (branch `phase-0` at `8a1ad45`) and `openarabee-quran-20261115-1929.bundle`. If an upload fails with a missing-permission error, the owner has to reconnect Google Drive in the Claude settings.
 
 ## Working agreements with the owner
 - Conversation in **German**; project files in English; content Arabic + English.
