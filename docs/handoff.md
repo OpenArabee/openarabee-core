@@ -30,8 +30,8 @@ Read this together with `docs/charter.md` at the start of every new session. Upd
 
 **Owner to-dos**
 1. Review and merge the two pull requests (branch `phase-0` → `main`). Merging is the approval of: the licence files, the licence split (D-018), the ID scheme (D-015), the spelling rules (D-017).
-2. If the push of `.github/workflows/validate.yml` was refused (the Claude GitHub App may lack the *workflows* permission): see the note at the end of this file.
-3. Still open from the founding session: default branch `main` and deletion of `access-test` in `openarabee-core`; repository descriptions and website under *About*; two-factor authentication.
+2. Check that the first run of the *validate* workflow is green (Actions tab of `openarabee-core`); it could not be checked from the session.
+3. Still open from the founding session: repository descriptions and website under *About*; two-factor authentication. (Default branch is `main` and `access-test` no longer exists: done.)
 4. Move the folder «OpenArabee-Backups» in Google Drive into «OpenArabee» if wanted.
 5. O-1 (reviewer), O-9 (legal review of the CLA draft).
 
