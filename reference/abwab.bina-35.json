@@ -1,0 +1,4494 @@
+{
+  "schema_version": "0.1",
+  "scheme": "bina-35",
+  "title": "The 35 abwāb of Matn al-Bināʾ",
+  "collation": "Transcribed on 2026-11-15 by reading pages 2-15 of the typed reading copy listed under source 'bina' (18 pages), page by page. Not yet collated against a printed edition, so every value has status draft and page references point to the reading copy. Spelling is normalised as described in docs/data-model.md §4 (no case endings on maṣdars, hamzat al-waṣl written اِ, no sukūn on long vowels). Examples: vowel marks kept on the verb only. The first six abwāb give no maṣdar because the text gives none.",
+  "groups": [
+    {
+      "id": "thulathi-mujarrad",
+      "label_ar": {
+        "value": "الثلاثي المجرد",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 2"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Bare triliteral",
+      "count": 6
+    },
+    {
+      "id": "thulathi-mazid-1",
+      "label_ar": {
+        "value": "الثلاثي المزيد بحرف واحد",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 4"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Triliteral augmented by one letter",
+      "count": 3
+    },
+    {
+      "id": "thulathi-mazid-2",
+      "label_ar": {
+        "value": "الثلاثي المزيد بحرفين",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 5"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Triliteral augmented by two letters",
+      "count": 5
+    },
+    {
+      "id": "thulathi-mazid-3",
+      "label_ar": {
+        "value": "الثلاثي المزيد بثلاثة أحرف",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 7"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Triliteral augmented by three letters",
+      "count": 4
+    },
+    {
+      "id": "rubai-mujarrad",
+      "label_ar": {
+        "value": "الرباعي المجرد",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 9"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Bare quadriliteral",
+      "count": 1
+    },
+    {
+      "id": "mulhaq-dahraja",
+      "label_ar": {
+        "value": "ملحق دحرج",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 9"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Attached (mulḥaq) to the bare quadriliteral daḥraja",
+      "count": 6
+    },
+    {
+      "id": "rubai-mazid-1",
+      "label_ar": {
+        "value": "الرباعي المزيد بحرف",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 11"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Quadriliteral augmented by one letter",
+      "count": 1
+    },
+    {
+      "id": "rubai-mazid-2",
+      "label_ar": {
+        "value": "الرباعي المزيد بحرفين",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 12"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Quadriliteral augmented by two letters",
+      "count": 2
+    },
+    {
+      "id": "mulhaq-tadahraja",
+      "label_ar": {
+        "value": "ملحق تدحرج",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 12"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Attached (mulḥaq) to tadaḥraja",
+      "count": 5
+    },
+    {
+      "id": "mulhaq-ihranjama",
+      "label_ar": {
+        "value": "ملحق احرنجم",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 14"
+          }
+        ],
+        "status": "draft"
+      },
+      "label_en": "Attached (mulḥaq) to iḥranjama",
+      "count": 2
+    }
+  ],
+  "abwab": [
+    {
+      "id": "bina-01",
+      "number": 1,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "فَعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعُلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "نَصَرَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَنْصُرُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "نَصَرَ زيد عمرا",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "خَرَجَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-02",
+      "number": 2,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "فَعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "ضَرَبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَضْرِبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "ضَرَبَ زيد عمرا",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "جَلَسَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-03",
+      "number": 3,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "فَعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "فَتَحَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْتَحُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "condition": {
+        "value": "The second or third radical must be one of the six guttural letters (ح خ ع غ ه ء).",
+        "src": [
+          {
+            "id": "bina",
+            "loc": "reading copy (takw.in), p. 2-3"
+          }
+        ],
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "value": "فَتَحَ زيد الباب",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "ذَهَبَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 2-3"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-04",
+      "number": 4,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 4,
+      "wazn": {
+        "past": {
+          "value": "فَعِلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "عَلِمَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَعْلَمُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "عَلِمَ زيد المسألة",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "وَجِلَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-05",
+      "number": 5,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 5,
+      "wazn": {
+        "past": {
+          "value": "فَعُلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعُلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "حَسُنَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَحْسُنُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "لا يكون إلا لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Always intransitive."
+      },
+      "examples": [
+        {
+          "value": "حَسُنَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-06",
+      "number": 6,
+      "group": "thulathi-mujarrad",
+      "number_in_group": 6,
+      "wazn": {
+        "past": {
+          "value": "فَعِلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "mawzun": {
+        "past": {
+          "value": "حَسِبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَحْسِبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        }
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "حَسِبَ زيد عمرا فاضلا",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "وَرِثَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "I",
+          "relation": "vowel-class",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 3-4"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-07",
+      "number": 7,
+      "group": "thulathi-mazid-1",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "أَفْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "إِفْعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 4"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "أَكْرَمَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُكْرِمُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "إِكْرَام",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 4"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "أَكْرَمَ زيد عمرا",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "أَصْبَحَ الرجل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "IV",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "note": "The reading copy prints the maṣdar with a plain alif (افعالا، اكراما); written here with hamzat al-qaṭʿ."
+    },
+    {
+      "id": "bina-08",
+      "number": 8,
+      "group": "thulathi-mazid-1",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "فَعَّلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعِّلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفْعِيل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 4-5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "فَرَّحَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَرِّحُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفْرِيح",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 4-5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتكثير",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "For plurality or intensity of the action, in the verb, the agent or the object."
+      },
+      "examples": [
+        {
+          "value": "طَوَّفَ زيد الكعبة",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "مَوَّتَ الإبل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "غَلَّقَ زيد الباب",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "II",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 4-5"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-09",
+      "number": 9,
+      "group": "thulathi-mazid-1",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "فَاعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَاعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "مُفَاعَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِيعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "قَاتَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُقَاتِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "مُقَاتَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "قِتَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "قِيتَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمشاركة بين الإثنين غالباً وقد يكون للواحد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "Mostly for an action shared between two; sometimes of one agent only."
+      },
+      "examples": [
+        {
+          "value": "قَاتَلَ زيد عمرا",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "قَاتَلَهُمُ الله",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "III",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-10",
+      "number": 10,
+      "group": "thulathi-mazid-2",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "اِنْفَعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَنْفَعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِنْفِعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِنْكَسَرَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَنْكَسِرُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِنْكِسَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 5"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمطاوعة",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "For muṭāwaʿa: the effect of a transitive action taking place."
+      },
+      "examples": [
+        {
+          "value": "كَسَرْتُ الزجاج فَانْكَسَرَ ذلك الزجاج",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "VII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 5"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-11",
+      "number": 11,
+      "group": "thulathi-mazid-2",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "اِفْتَعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْتَعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْتِعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِجْتَمَعَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَجْتَمِعُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِجْتِمَاع",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمطاوعة أيضاً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "Also for muṭāwaʿa."
+      },
+      "examples": [
+        {
+          "value": "جَمَعْتُ الإبل فَاجْتَمَعَ تلك الإبل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "VIII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-12",
+      "number": 12,
+      "group": "thulathi-mazid-2",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَلَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَلُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِحْمَرَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَحْمَرُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِحْمِرَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "لمبالغة اللازم وقيل للألوان والعيوب",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intensive of an intransitive; some say: for colours and defects."
+      },
+      "examples": [
+        {
+          "value": "اِحْمَرَّ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "اِعْوَرَّ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "IX",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-13",
+      "number": 13,
+      "group": "thulathi-mazid-2",
+      "number_in_group": 4,
+      "wazn": {
+        "past": {
+          "value": "تَفَعَّلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَعَّلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَعُّل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6-7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَكَلَّمَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَكَلَّمُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَكَلُّم",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 6-7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتكلف",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "For takalluf: obtaining something step by step, with effort."
+      },
+      "examples": [
+        {
+          "value": "تَعَلَّمْتُ العلم مسألة بعد مسألة",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "V",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 6-7"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-14",
+      "number": 14,
+      "group": "thulathi-mazid-2",
+      "number_in_group": 5,
+      "wazn": {
+        "past": {
+          "value": "تَفَاعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَاعَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَاعُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَبَاعَدَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَبَاعَدُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَبَاعُد",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمشاركة بين الاثنين فصاعداً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "For an action shared between two or more."
+      },
+      "examples": [
+        {
+          "value": "تَبَاعَدَ زيد عن عمرو",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "تَصَالَحَ القوم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "VI",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-15",
+      "number": 15,
+      "group": "thulathi-mazid-3",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "اِسْتَفْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَسْتَفْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِسْتِفْعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِسْتَخْرَجَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَسْتَخْرِجُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِسْتِخْرَاج",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 7"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِسْتَخْرَجَ زيد المال",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "اِسْتَحْجَرَ الطين",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "اِسْتَغْفَرَ الله",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "X",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 7"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "note": "The text adds: وقيل لطلب الفعل (some say: for requesting the action), with the example استغفر الله."
+    },
+    {
+      "id": "bina-16",
+      "number": 16,
+      "group": "thulathi-mazid-3",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَوْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَوْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِيعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِعْشَوْشَبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَعْشَوْشِبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِعْشِيشَاب",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "لمبالغة اللازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intensive of an intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِعْشَوْشَبَ الأرض",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "XII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-17",
+      "number": 17,
+      "group": "thulathi-mazid-3",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَوَّلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَوِّلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِوَّال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِجْلَوَّذَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَجْلَوِّذُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِجْلِوَّاذ",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "أيضاً لمبالغة اللازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Also intensive of an intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِجْلَوَّذَ الإبل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "XIII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-18",
+      "number": 18,
+      "group": "thulathi-mazid-3",
+      "number_in_group": 4,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَالَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَالُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِيلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8-9"
+              }
+            ],
+            "status": "draft",
+            "note": "The reading copy prints the maṣdar pattern as افعيعالا, apparently repeating the pattern of bāb 16; the value اِفْعِيلَال is the pattern of the model maṣdar احميرار printed on the same line. To be settled against a printed edition."
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِحْمَارَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَحْمَارُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِحْمِيرَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 8-9"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "لمبالغة اللازم ولكن هذا الباب أبلغ من باب الإفعلال",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intensive of an intransitive, stronger than the pattern ifʿalla (bāb 12)."
+      },
+      "examples": [
+        {
+          "value": "اِحْمَارَّ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "XI",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 8-9"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-19",
+      "number": 19,
+      "group": "rubai-mujarrad",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "فَعْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعْلِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَعْلَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعْلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "دَحْرَجَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُدَحْرِجُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "دَحْرَجَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "دِحْرَاج",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية غالباً وقد يكون لازماً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "mostly-transitive",
+        "en": "Mostly transitive, sometimes intransitive."
+      },
+      "examples": [
+        {
+          "value": "دَحْرَجَ زيد الحجر",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        {
+          "value": "دَرْبَخَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-20",
+      "number": 20,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "فَوْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَوْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَوْعَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِيعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "حَوْقَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُحَوْقِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "حَوْقَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "حِيقَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "حَوْقَلَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-21",
+      "number": 21,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "فَيْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَيْعِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَيْعَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9-10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِيعَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9-10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "بَيْطَرَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُبَيْطِرُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "بَيْطَرَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9-10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "بِيطَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 9-10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية فقط",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "transitive-only",
+        "en": "Transitive only."
+      },
+      "examples": [
+        {
+          "value": "بَيْطَرَ زيد القلم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 9-10"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-22",
+      "number": 22,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "فَعْوَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعْوِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَعْوَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعْوَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "جَهْوَرَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُجَهْوِرُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "جَهْوَرَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "جِهْوَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "أيضاً للتعدية",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "transitive-only",
+        "en": "Also transitive."
+      },
+      "examples": [
+        {
+          "value": "جَهْوَرَ زيد القرآن",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-23",
+      "number": 23,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 4,
+      "wazn": {
+        "past": {
+          "value": "فَعْيَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعْيِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَعْيَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعْيَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "عَثْيَرَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُعَثْيِرُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "عَثْيَرَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "عِثْيَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "عَثْيَرَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-24",
+      "number": 24,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 5,
+      "wazn": {
+        "past": {
+          "value": "فَعْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعْلِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَعْلَلَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10-11"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعْلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10-11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "جَلْبَبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُجَلْبِبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "جَلْبَبَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10-11"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "جِلْبَاب",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 10-11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للتعدية فقط",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "transitive-only",
+        "en": "Transitive only."
+      },
+      "examples": [
+        {
+          "value": "جَلْبَبَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 10-11"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ],
+      "note": "Same written pattern as bāb 19, but the last letter repeats the third radical of a triliteral root (جلب)."
+    },
+    {
+      "id": "bina-25",
+      "number": 25,
+      "group": "mulhaq-dahraja",
+      "number_in_group": 6,
+      "wazn": {
+        "past": {
+          "value": "فَعْلَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُفَعْلِي",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "فَعْلَيَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "فِعْلَاء",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "سَلْقَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يُسَلْقِي",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "سَلْقَيَة",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          },
+          {
+            "value": "سِلْقَاء",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم فقط",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive only."
+      },
+      "examples": [
+        {
+          "value": "سَلْقَى زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QI",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-26",
+      "number": 26,
+      "group": "rubai-mazid-1",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "تَفَعْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَعْلَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَعْلُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَدَحْرَجَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَدَحْرَجُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَدَحْرُج",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 11"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمطاوعة",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "For muṭāwaʿa."
+      },
+      "examples": [
+        {
+          "value": "دَحْرَجْتُ الحجر فَتَدَحْرَجَ ذلك الحجر",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 11"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-27",
+      "number": 27,
+      "group": "rubai-mazid-2",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَنْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَنْلِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِنْلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 12"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِحْرَنْجَمَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَحْرَنْجِمُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِحْرِنْجَام",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 12"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للمطاوعة أيضاً",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "not-stated",
+        "en": "Also for muṭāwaʿa."
+      },
+      "examples": [
+        {
+          "value": "حَرْجَمْتُ الإبل فَاحْرَنْجَمَ ذلك الإبل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QIII",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-28",
+      "number": 28,
+      "group": "rubai-mazid-2",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَلَلَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَلِلُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِلَّال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 12"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِقْشَعَرَّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَقْشَعِرُّ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِقْشِعْرَار",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 12"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "لمبالغة اللازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intensive of an intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِقْشَعَرَّ جلد الرجل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QIV",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 12"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "bina-29",
+      "number": 29,
+      "group": "mulhaq-tadahraja",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "تَفَعْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَعْلَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَعْلُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَجَلْبَبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَجَلْبَبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَجَلْبُب",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "تَجَلْبَبَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-30",
+      "number": 30,
+      "group": "mulhaq-tadahraja",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "تَفَوْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَوْعَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَوْعُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَجَوْرَبَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَجَوْرَبُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَجَوْرُب",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "تَجَوْرَبَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-31",
+      "number": 31,
+      "group": "mulhaq-tadahraja",
+      "number_in_group": 3,
+      "wazn": {
+        "past": {
+          "value": "تَفَيْعَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَيْعَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَيْعُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَشَيْطَنَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَشَيْطَنُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَشَيْطُن",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "تَشَيْطَنَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-32",
+      "number": 32,
+      "group": "mulhaq-tadahraja",
+      "number_in_group": 4,
+      "wazn": {
+        "past": {
+          "value": "تَفَعْوَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَعْوَلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَعْوُل",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13-14"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَرَهْوَكَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَرَهْوَكُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَرَهْوُك",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 13-14"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "تَرَهْوَكَ زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 13-14"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-33",
+      "number": 33,
+      "group": "mulhaq-tadahraja",
+      "number_in_group": 5,
+      "wazn": {
+        "past": {
+          "value": "تَفَعْلَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَفَعْلَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَفَعْلِي",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 14"
+              }
+            ],
+            "status": "draft",
+            "note": "Printed in the accusative (تفعليا، تسلقيا); stored without case ending, with the final yāʾ written."
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "تَسَلْقَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَتَسَلْقَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "تَسَلْقِي",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 14"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "تَسَلْقَى زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "QII",
+          "relation": "subsumed",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §§67-72, pp. 47-49"
+            }
+          ],
+          "status": "draft",
+          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+        }
+      ]
+    },
+    {
+      "id": "bina-34",
+      "number": 34,
+      "group": "mulhaq-ihranjama",
+      "number_in_group": 1,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَنْلَلَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَنْلِلُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِنْلَال",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 14-15"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِقْعَنْسَسَ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَقْعَنْسِسُ",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِقْعِنْسَاس",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 14-15"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "لمبالغة اللازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intensive of an intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِقْعَنْسَسَ الرجل",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "XIV",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 14-15"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "note": "Same written pattern as bāb 27, but from a triliteral root (قعس) with the third radical repeated."
+    },
+    {
+      "id": "bina-35",
+      "number": 35,
+      "group": "mulhaq-ihranjama",
+      "number_in_group": 2,
+      "wazn": {
+        "past": {
+          "value": "اِفْعَنْلَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَفْعَنْلِي",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِفْعِنْلَاء",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 15"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "mawzun": {
+        "past": {
+          "value": "اِسْلَنْقَى",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        },
+        "imperfect": {
+          "value": "يَسْلَنْقِي",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        },
+        "masdar": [
+          {
+            "value": "اِسْلِنْقَاء",
+            "src": [
+              {
+                "id": "bina",
+                "loc": "reading copy (takw.in), p. 15"
+              }
+            ],
+            "status": "draft"
+          }
+        ]
+      },
+      "bina": {
+        "ar": {
+          "value": "للازم",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        },
+        "transitivity": "intransitive-only",
+        "en": "Intransitive."
+      },
+      "examples": [
+        {
+          "value": "اِسْلَنْقَى زيد",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "western": [
+        {
+          "scheme": "wright",
+          "value": "XV",
+          "relation": "exact",
+          "src": [
+            {
+              "id": "bina",
+              "loc": "reading copy (takw.in), p. 15"
+            },
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+            }
+          ],
+          "status": "draft"
+        }
+      ],
+      "note": "Wright §71 (p. 49) lists a verb glossed 'to lie on one's back' under the third quadriliteral Form as well; his Arabic example has not been collated yet. If it is this verb, record both classifications."
+    }
+  ]
+}

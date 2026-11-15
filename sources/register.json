@@ -1,0 +1,320 @@
+{
+  "schema_version": "0.1",
+  "sources": [
+    {
+      "id": "bina",
+      "title": "Matn al-Bināʾ (Bināʾ al-afʿāl)",
+      "title_ar": "متن البناء",
+      "author": "attributed to ʿAbd Allāh al-Danqazī",
+      "kind": "reference-work",
+      "class": "A",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet. Candidates: the old Cairo printings inside collections of mutūn (charter §6: printed there since at least 1911).",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "reading_copies": [
+        {
+          "label": "Typed copy, 18 pages (takw.in)",
+          "url": "https://takw.in/files/البناء%20والأساس.pdf",
+          "note": "Modern typed copy without publication details; its title page misprints the author's name. Page references of the form 'reading copy (takw.in), p. N' refer to it. Its text layer is not usable; read from the page images."
+        }
+      ],
+      "notes": "Defines the scheme 'bina-35'. Other classical authors count the abwāb differently (charter §3)."
+    },
+    {
+      "id": "shadha",
+      "title": "Shadhā al-ʿArf fī Fann al-Ṣarf",
+      "title_ar": "شذا العرف في فن الصرف",
+      "author": "Aḥmad al-Ḥamalāwī",
+      "author_died": "1932 CE",
+      "kind": "reference-work",
+      "class": "A",
+      "layer": "core",
+      "rights": "Public domain in Germany since 2003 (author died 1932). Later annotated editions may carry rights in their notes.",
+      "edition": "Not chosen yet. First printed 1894; a 1901 printing is digitised by Qatar National Library.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "reading_copies": [
+        { "label": "1901 printing, Qatar National Library", "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00002470" }
+      ]
+    },
+    {
+      "id": "sharh-shafiya",
+      "title": "Sharḥ al-Shāfiya",
+      "title_ar": "شرح شافية ابن الحاجب",
+      "author": "Raḍī al-Dīn al-Astarābādhī, on the Shāfiya of Ibn al-Ḥājib",
+      "kind": "reference-work",
+      "class": "A",
+      "layer": "core",
+      "rights": "Public domain (work). The edition must be checked: modern critical editions can carry a separate right.",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Authority for disputed points only."
+    },
+    {
+      "id": "wright-1896",
+      "title": "A Grammar of the Arabic Language, translated from the German of Caspari and edited with numerous additions and corrections, 3rd edition",
+      "author": "William Wright; revised by W. Robertson Smith and M. J. de Goeje",
+      "author_died": "1889 CE (Wright)",
+      "kind": "reference-work",
+      "class": "A",
+      "layer": "core",
+      "rights": "Public domain.",
+      "edition": "Cambridge: at the University Press. Vol. I 1896, vol. II 1898. Cited by volume, paragraph (§) and page.",
+      "edition_status": "confirmed",
+      "bibliography_status": "checked",
+      "url": "https://archive.org/details/grammarofarabicl01caspuoft",
+      "notes": "Defines the scheme 'wright' (Forms I-XV, QI-QIV). Title page of vol. I seen in the scan on 2026-11-15."
+    },
+    {
+      "id": "mukhtar",
+      "title": "Mukhtār al-Ṣiḥāḥ",
+      "title_ar": "مختار الصحاح",
+      "author": "Muḥammad ibn Abī Bakr al-Rāzī",
+      "author_died": "after 666 AH / 1268 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet. Cite by headword (s.v.) until a printing is fixed.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "reading_copies": [
+        { "label": "Arabic Wikisource (author's preface)", "url": "https://ar.wikisource.org/wiki/مختار_الصحاح/مقدمة" }
+      ],
+      "notes": "Names the bāb of triliteral verbs by model verbs."
+    },
+    {
+      "id": "misbah",
+      "title": "al-Miṣbāḥ al-Munīr",
+      "title_ar": "المصباح المنير",
+      "author": "Aḥmad ibn Muḥammad al-Fayyūmī",
+      "author_died": "c. 770 AH / 1368 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet. Cite by headword (s.v.) until a printing is fixed.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "reading_copies": [
+        { "label": "Arabic Wikisource (index)", "url": "https://ar.wikisource.org/wiki/المصباح_المنير/فهرس" }
+      ],
+      "notes": "States the bāb explicitly (من باب ضرب)."
+    },
+    {
+      "id": "lane",
+      "title": "An Arabic-English Lexicon",
+      "author": "Edward William Lane; completed by Stanley Lane-Poole",
+      "author_died": "1876 CE (Lane)",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (printed work). The Perseus digital text is CC BY-SA: cite the printed volume and page, never paste the digital text into the core.",
+      "edition": "London: Williams and Norgate, 1863-1893, 8 parts. Cited by part and page.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "url": "https://archive.org/details/ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863"
+    },
+    {
+      "id": "lisan",
+      "title": "Lisān al-ʿArab",
+      "title_ar": "لسان العرب",
+      "author": "Ibn Manẓūr",
+      "author_died": "711 AH / 1311 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Fallback evidence."
+    },
+    {
+      "id": "qamus",
+      "title": "al-Qāmūs al-Muḥīṭ",
+      "title_ar": "القاموس المحيط",
+      "author": "al-Fīrūzābādī",
+      "author_died": "817 AH / 1415 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Fallback evidence."
+    },
+    {
+      "id": "taj",
+      "title": "Tāj al-ʿArūs",
+      "title_ar": "تاج العروس",
+      "author": "Murtaḍā al-Zabīdī",
+      "author_died": "1205 AH / 1790 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work). The modern Kuwait edition may carry edition rights; prefer an old printing.",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Fallback evidence."
+    },
+    {
+      "id": "maqayis",
+      "title": "Maqāyīs al-Lugha",
+      "title_ar": "مقاييس اللغة",
+      "author": "Aḥmad ibn Fāris",
+      "author_died": "395 AH / 1004 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work). The usual edition is a modern critical one: check its status before citing page numbers.",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Core meaning of roots."
+    },
+    {
+      "id": "mufradat",
+      "title": "Mufradāt Alfāẓ al-Qurʾān",
+      "title_ar": "مفردات ألفاظ القرآن",
+      "author": "al-Rāghib al-Iṣfahānī",
+      "author_died": "c. 502 AH / 1108 CE",
+      "kind": "dictionary",
+      "class": "B",
+      "layer": "core",
+      "rights": "Public domain (work).",
+      "edition": "Not chosen yet.",
+      "edition_status": "to-confirm",
+      "bibliography_status": "draft",
+      "notes": "Quranic usage of roots."
+    },
+    {
+      "id": "wikidata",
+      "title": "Wikidata lexemes",
+      "kind": "dataset",
+      "class": "C",
+      "layer": "core",
+      "rights": "Free reuse.",
+      "licence": "CC0 1.0",
+      "bibliography_status": "draft",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "notes": "Verify before import; cite the lexeme id (L...) and retrieval date in loc."
+    },
+    {
+      "id": "camel-morph",
+      "title": "Camel Morph data",
+      "kind": "dataset",
+      "class": "C",
+      "layer": "core",
+      "rights": "Reuse with attribution.",
+      "licence": "CC BY 4.0",
+      "bibliography_status": "draft",
+      "url": "https://pypi.org/project/camel-morph/",
+      "notes": "Licence as recorded in charter §6; re-read the licence file of the exact release before the first import and add the required attribution text here."
+    },
+    {
+      "id": "tanzil",
+      "title": "Tanzil Quran text (Uthmani, Ḥafṣ)",
+      "kind": "text",
+      "class": "C",
+      "layer": "quran-layer",
+      "rights": "Verbatim copies only, with attribution and a link to tanzil.net.",
+      "licence": "CC BY 3.0, with the Tanzil terms of use",
+      "bibliography_status": "draft",
+      "url": "https://tanzil.net/download"
+    },
+    {
+      "id": "qac",
+      "title": "Quranic Arabic Corpus, morphological annotation v0.4",
+      "kind": "dataset",
+      "class": "C",
+      "layer": "quran-layer",
+      "rights": "Recorded in charter §6 as research / non-commercial use with attribution. Open point O-3: ask the maintainers about other uses.",
+      "bibliography_status": "draft",
+      "url": "https://corpus.quran.com/faq.jsp",
+      "notes": "Never cited in core data. Re-read the terms printed in the header of the data file before any redistribution."
+    },
+    {
+      "id": "camel-tools",
+      "title": "CAMeL Tools",
+      "kind": "software",
+      "class": "C",
+      "layer": "cross-check",
+      "rights": "Open-source software.",
+      "licence": "MIT",
+      "bibliography_status": "draft",
+      "url": "https://camel-tools.readthedocs.io/",
+      "notes": "Tooling for machine checks. A tool result moves a value to 'machine-checked'; it is not a source."
+    },
+    {
+      "id": "qutrub",
+      "title": "Qutrub (Arabic verb conjugator)",
+      "kind": "software",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "GPL: never copied into the core.",
+      "licence": "GPL",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "arramooz",
+      "title": "Arramooz (Arabic dictionary for morphological analysis)",
+      "kind": "dataset",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "GPL: never copied into the core.",
+      "licence": "GPL",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "wehr",
+      "title": "Hans Wehr, A Dictionary of Modern Written Arabic",
+      "kind": "dictionary",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "Copyrighted. Consulted by a human for single entries when sources disagree.",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "doha",
+      "title": "Doha Historical Dictionary of Arabic",
+      "kind": "dictionary",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "Copyrighted. Consulted by a human for single entries when sources disagree.",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "fischer",
+      "title": "Wolfdietrich Fischer, Grammatik des klassischen Arabisch",
+      "kind": "reference-work",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "Copyrighted. Consulted by a human for single points.",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "openiti",
+      "title": "OpenITI corpus",
+      "kind": "text",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "Non-commercial digitisations: reading copies only.",
+      "bibliography_status": "draft"
+    },
+    {
+      "id": "shamela",
+      "title": "al-Maktaba al-Shāmila digitisations",
+      "kind": "text",
+      "class": "D",
+      "layer": "cross-check",
+      "rights": "Reading copies only; cite the printed work, not the digitisation.",
+      "bibliography_status": "draft"
+    }
+  ]
+}

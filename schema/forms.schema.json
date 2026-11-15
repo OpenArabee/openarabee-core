@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openarabee.com/schema/v0/forms.schema.json",
+  "title": "OpenArabee reference table: Western numbered Forms",
+  "type": "object",
+  "required": ["schema_version", "scheme", "title", "collation", "forms"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "scheme": { "const": "wright" },
+    "title": { "type": "string" },
+    "collation": { "type": "string" },
+    "forms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "pattern", "treated_in"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/formId" },
+          "kind": { "enum": ["triliteral", "quadriliteral"] },
+          "pattern": { "$ref": "common.schema.json#/$defs/arFact" },
+          "treated_in": { "$ref": "common.schema.json#/$defs/textFact", "description": "Paragraphs and pages of the source that treat the Form." },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "imperfect_vowel": { "$ref": "common.schema.json#/$defs/textFact" }
+  }
+}

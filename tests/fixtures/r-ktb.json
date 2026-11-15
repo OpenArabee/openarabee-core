@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "root": {
+    "id": "r-ktb",
+    "letters": ["ك", "ت", "ب"],
+    "types": ["sound"]
+  },
+  "lexemes": [
+    {
+      "id": "v-ktb-1",
+      "type": "verb",
+      "root": "r-ktb",
+      "past": { "value": "كَتَبَ", "src": [{ "id": "mukhtar", "loc": "s.v. كتب" }], "status": "draft" },
+      "imperfect": { "value": "يَكْتُبُ", "src": ["mukhtar"], "status": "draft" },
+      "classification": [
+        { "scheme": "bina-35", "value": "bina-01", "src": ["mukhtar"], "status": "draft" },
+        { "scheme": "wright", "value": "I", "src": ["wright-1896"], "status": "draft" }
+      ],
+      "masdar": [{ "value": "كِتَابَة", "src": ["lane"], "status": "draft" }],
+      "transitive": { "value": true, "src": ["lane"], "status": "draft" },
+      "gloss": {
+        "ar": { "value": "خَطَّ", "src": ["mukhtar"], "status": "draft" },
+        "en": { "value": "to write", "src": ["lane"], "status": "draft" }
+      }
+    }
+  ]
+}

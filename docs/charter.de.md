@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.1 (Entwurf) – 15.11.2026 |
+| **Version** | 0.2 (Entwurf) – 15.11.2026 (Phase 0: D‑015 bis D‑019, O‑2, O‑6, O‑8, O‑9) |
 | **Eigentümer** | Obada Obaid (GitHub: `obadaobaid`, Organisation: `OpenArabee`) |
 | **Status** | **Alle Entscheidungen sind vorläufig.** Änderungen laufen über das Entscheidungsprotokoll (Abschnitt 12). |
 | **Maßgeblich** | Die englische Fassung `charter.md`. Bei Abweichungen gilt sie. |
@@ -186,18 +186,20 @@ Aus dem Quranic Arabic Corpus v0.4 (77.429 Wörter):
 | # | Frage | Wer |
 |---|---|---|
 | O‑1 | Mindestens eine Fachperson für das Gold-Set gewinnen | Eigentümer |
-| O‑2 | ID- und Umschriftschema | KI in Phase 0 |
+| O‑2 | ID- und Umschriftschema. Vorschlag aus Phase 0: D‑015, `docs/data-model.md` §2 | Eigentümer bestätigt |
 | O‑3 | Beim Quranic Arabic Corpus nach Nutzungsbedingungen fragen | Eigentümer, später |
 | O‑4 | Gehört die Wurzelliste in den Kern oder die Koran-Ebene? | Eigentümer, bei der Rechtsberatung |
 | O‑5 | Logo: mit Google Gemini erstellt; KI-Bilder sind meist nicht urheberrechtlich geschützt. In Phase 0 als saubere SVG neu zeichnen | KI zeichnet, Eigentümer gibt frei |
-| O‑6 | Zitierfähige Drucke der Referenzwerke festlegen | KI in Phase 0 |
+| O‑6 | Zitierfähige Drucke der Referenzwerke festlegen. Für Wright erledigt (Cambridge 1896–98), für alle arabischen Werke offen; bis ein Druck des *Matn al-Bināʾ* gewählt ist, zitiert die Abwāb-Tabelle eine abgetippte Lesekopie und bleibt `draft` | KI schlägt vor, Eigentümer entscheidet |
 | O‑7 | Marke eintragen lassen? (Suchen am 15.11.2026 ohne Treffer) | Eigentümer, später |
+| O‑8 | Wrights Formentabelle (§35) und seine vierradikaligen Beispiele (§§67–72) an den Seitenbildern prüfen. Dabei klären: §71 scheint ein Verb „auf dem Rücken liegen“ unter der dritten vierradikaligen Form zu führen, während der *Matn* اسلنقى als Mulḥaq führt (Bāb 35, Form XV) | KI |
+| O‑9 | `CLA.md` ist ein Entwurf ohne rechtliche Prüfung und nicht in Kraft; vor dem ersten fremden Beitrag in der Rechtsberatung prüfen lassen | Eigentümer |
 
 ---
 
 ## 12. Entscheidungsprotokoll
 
-Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑014) steht in der englischen Fassung. Kurzfassung:
+Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑019) steht in der englischen Fassung. Kurzfassung:
 
 - Name **OpenArabee**, Domain openarabee.com, Organisation `OpenArabee`
 - Lizenzen MIT / CC BY 4.0 / CLA; zwei Ebenen (Kern und Koran)
@@ -209,3 +211,8 @@ Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑014) st
 - Sicherung per `git bundle` in Google Drive
 - alle Repos öffentlich
 - Charta zweisprachig, die englische Fassung ist maßgeblich
+- IDs: ASCII, klein, ein Zeichen pro Wurzelbuchstabe (`r-ktb`, `v-ktb-1`, `bina-01`); veröffentlichte IDs ändern sich nie (D‑015)
+- Schema v0: eine Datei pro Wurzel; Quellenangabe mit genauer Stelle; Wurzeltyp wird aus den Buchstaben abgeleitet (D‑016)
+- einheitliche Schreibung arabischer Zitierformen (D‑017)
+- Code und Schema MIT; Daten, Tabellen, Quellenregister und Doku CC BY 4.0 (D‑018)
+- Arbeit auf Branches; der Eigentümer gibt per Merge frei (D‑019)

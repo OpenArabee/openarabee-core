@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openarabee.com/schema/v0/source-register.schema.json",
+  "title": "OpenArabee source register (sources/register.json)",
+  "type": "object",
+  "required": ["schema_version", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "kind", "class", "layer", "rights", "bibliography_status"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/sourceId" },
+        "title": { "type": "string", "minLength": 1 },
+        "title_ar": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "author_ar": { "type": "string", "minLength": 1 },
+        "author_died": { "type": "string", "description": "Year of death as commonly given (AH/CE); approximate values marked with c." },
+        "kind": { "enum": ["reference-work", "dictionary", "dataset", "text", "software"] },
+        "class": { "description": "Group in charter §6.", "enum": ["A", "B", "C", "D"] },
+        "layer": {
+          "description": "core: may be cited as src in core data. quran-layer: only in openarabee-quran. cross-check: consulted by a human for single entries, never cited as the sole basis and never copied.",
+          "enum": ["core", "quran-layer", "cross-check"]
+        },
+        "rights": { "type": "string", "minLength": 1 },
+        "licence": { "type": "string" },
+        "edition": { "type": "string", "description": "The printing that page references (loc) refer to." },
+        "edition_status": { "enum": ["confirmed", "to-confirm"] },
+        "bibliography_status": { "description": "draft = details entered from the charter or memory, not yet checked against a title page or catalogue record.", "enum": ["draft", "checked"] },
+        "url": { "type": "string", "format": "uri" },
+        "reading_copies": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["label", "url"], "additionalProperties": false,
+            "properties": { "label": { "type": "string" }, "url": { "type": "string" }, "note": { "type": "string" } }
+          }
+        },
+        "attribution": { "type": "string", "description": "Attribution text the licence requires." },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
