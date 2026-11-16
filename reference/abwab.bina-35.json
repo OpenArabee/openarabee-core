@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "scheme": "bina-35",
   "title": "The 35 abwāb of Matn al-Bināʾ",
-  "collation": "Transcribed on 2026-11-15 by reading pages 2-15 of the typed reading copy listed under source 'bina' (18 pages), page by page. Not yet collated against a printed edition, so every value has status draft and page references point to the reading copy. Spelling is normalised as described in docs/data-model.md §4 (no case endings on maṣdars, hamzat al-waṣl written اِ, no sukūn on long vowels). Examples: vowel marks kept on the verb only. The first six abwāb give no maṣdar because the text gives none.",
+  "collation": "Transcribed on 2026-11-15 by reading pages 2-15 of the typed reading copy listed under source 'bina' (18 pages), page by page. Western equivalents were checked on 2026-11-16 against the page images of Wright vol. I (§35, §§66-72). The Arabic values are not yet collated against a printed edition, so every value has status draft and page references point to the reading copy. Spelling is normalised as described in docs/data-model.md §4 (no case endings on maṣdars, hamzat al-waṣl written اِ, no sukūn on long vowels). Examples: vowel marks kept on the verb only. The first six abwāb give no maṣdar because the text gives none.",
   "groups": [
     {
       "id": "thulathi-mujarrad",
@@ -2460,10 +2460,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §69, p. 48"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "Wright prints this bāb's model verb itself as an example of the Form."
         }
       ]
     },
@@ -2598,11 +2599,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67 (d), p. 48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he prints this bāb's model verb itself among the quadriliterals."
         }
       ]
     },
@@ -2737,11 +2738,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67 (c), p. 48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he prints this bāb's model verb itself among the quadriliterals."
         }
       ]
     },
@@ -2876,11 +2877,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
       ]
     },
@@ -3015,11 +3016,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
       ]
     },
@@ -3154,11 +3155,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67 (c), p. 47"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he prints this bāb's model verb itself among the quadriliterals."
         }
       ],
       "note": "Same written pattern as bāb 19, but the last letter repeats the third radical of a triliteral root (جلب)."
@@ -3294,13 +3295,14 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
-      ]
+      ],
+      "note": "Wright mentions سَلْقَى in the remark to §65 (p. 46) and suggests it is a trace of an old causative pattern with prefixed s (of لقي), not an extension of سلق."
     },
     {
       "id": "bina-26",
@@ -3413,10 +3415,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §70, p. 48"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "Wright prints this bāb's model verb itself as an example of the Form."
         }
       ]
     },
@@ -3531,10 +3534,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §71, p. 49"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "Wright prints this bāb's model verb itself as an example of the Form."
         }
       ]
     },
@@ -3649,10 +3653,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §72, p. 49"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "Wright prints this bāb's model verb itself as an example of the Form."
         }
       ]
     },
@@ -3767,11 +3772,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §70, p. 48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he prints this bāb's model verb itself among the quadriliterals."
         }
       ]
     },
@@ -3886,11 +3891,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
       ]
     },
@@ -4005,11 +4010,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §70, p. 48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he prints this bāb's model verb itself among the quadriliterals."
         }
       ]
     },
@@ -4124,11 +4129,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
       ]
     },
@@ -4244,11 +4249,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §§67-72, pp. 47-49"
+              "loc": "vol. I, §67, pp. 47-48"
             }
           ],
           "status": "draft",
-          "note": "Mulḥaq pattern; Western grammars do not number it separately (Wright §67 describes quadriliterals formed by adding a fourth letter to a triliteral)."
+          "note": "Mulḥaq pattern that Wright does not number separately; he describes quadriliterals formed by adding a letter to a triliteral form in §67 (b). The model verb itself is not among his examples in §§67-70."
         }
       ]
     },
@@ -4363,10 +4368,11 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+              "loc": "vol. I, §35, p. 29; §66, p. 47"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "Wright prints this bāb's model verb itself as an example of the Form."
         }
       ],
       "note": "Same written pattern as bāb 27, but from a triliteral root (قعس) with the third radical repeated."
@@ -4482,13 +4488,27 @@
             },
             {
               "id": "wright-1896",
-              "loc": "vol. I, §35, p. 29; §66, pp. 46-47"
+              "loc": "vol. I, §35, p. 29; §66, p. 47"
             }
           ],
-          "status": "draft"
+          "status": "draft",
+          "note": "The pattern اِفْعَنْلَى is Wright's Form XV; his examples there are other verbs."
+        },
+        {
+          "scheme": "wright",
+          "value": "QIII",
+          "relation": "model-verb",
+          "src": [
+            {
+              "id": "wright-1896",
+              "loc": "vol. I, §71, p. 49"
+            }
+          ],
+          "status": "draft",
+          "note": "Wright prints اِسْلَنْقَى itself as an example of the third quadriliteral Form, i.e. he derives it from the quadriliteral سَلْقَى, where the Matn treats it as mulḥaq of the triliteral سلق."
         }
       ],
-      "note": "Wright §71 (p. 49) lists a verb glossed 'to lie on one's back' under the third quadriliteral Form as well; his Arabic example has not been collated yet. If it is this verb, record both classifications."
+      "note": "The two traditions classify the model verb differently; both classifications are recorded (charter principle 6)."
     }
   ]
 }

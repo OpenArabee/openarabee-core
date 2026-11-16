@@ -10,7 +10,7 @@
       "class": "A",
       "layer": "core",
       "rights": "Public domain (work).",
-      "edition": "Not chosen yet. Candidates: the old Cairo printings inside collections of mutūn (charter §6: printed there since at least 1911).",
+      "edition": "Proposed, not yet seen: in «مجموع المتون المقرر دراستها بالأزهر الشريف والمعاهد الدينية التابعة لإدارته», Cairo: al-Maṭbaʿa al-Jamāliyya, 1329 AH [1911/12], 8 + 35 pp. (Qatar National Library, QNL:00022512). Alternative: in the collection beginning with Marāḥ al-arwāḥ, ed. Ḥasan Shawqī, 1317 AH [1899/1900], 256 pp. (QNL:00005293).",
       "edition_status": "to-confirm",
       "bibliography_status": "draft",
       "reading_copies": [
@@ -18,6 +18,16 @@
           "label": "Typed copy, 18 pages (takw.in)",
           "url": "https://takw.in/files/البناء%20والأساس.pdf",
           "note": "Modern typed copy without publication details; its title page misprints the author's name. Page references of the form 'reading copy (takw.in), p. N' refer to it. Its text layer is not usable; read from the page images."
+        },
+        {
+          "label": "1911 Cairo collection, Qatar National Library",
+          "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00022512",
+          "note": "Catalogue record read on 2026-11-16; the page viewer did not load in the session's browser, so the text has not been seen."
+        },
+        {
+          "label": "1899 collection, Qatar National Library",
+          "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00005293",
+          "note": "Catalogue record only; the record names al-Kafawī for the Bināʾ. Page viewer did not load."
         }
       ],
       "notes": "Defines the scheme 'bina-35'. Other classical authors count the abwāb differently (charter §3)."
@@ -36,7 +46,10 @@
       "edition_status": "to-confirm",
       "bibliography_status": "draft",
       "reading_copies": [
-        { "label": "1901 printing, Qatar National Library", "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00002470" }
+        {
+          "label": "1901 printing, Qatar National Library",
+          "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00002470"
+        }
       ]
     },
     {
@@ -66,7 +79,7 @@
       "edition_status": "confirmed",
       "bibliography_status": "checked",
       "url": "https://archive.org/details/grammarofarabicl01caspuoft",
-      "notes": "Defines the scheme 'wright' (Forms I-XV, QI-QIV). Title page of vol. I seen in the scan on 2026-11-15."
+      "notes": "Defines the scheme 'wright' (Forms I-XV, QI-QIV). Page images of vol. I read on 2026-11-16 (printed p. 29 = leaf n46 of the scan)."
     },
     {
       "id": "mukhtar",
@@ -82,7 +95,10 @@
       "edition_status": "to-confirm",
       "bibliography_status": "draft",
       "reading_copies": [
-        { "label": "Arabic Wikisource (author's preface)", "url": "https://ar.wikisource.org/wiki/مختار_الصحاح/مقدمة" }
+        {
+          "label": "Arabic Wikisource (author's preface)",
+          "url": "https://ar.wikisource.org/wiki/مختار_الصحاح/مقدمة"
+        }
       ],
       "notes": "Names the bāb of triliteral verbs by model verbs."
     },
@@ -100,7 +116,10 @@
       "edition_status": "to-confirm",
       "bibliography_status": "draft",
       "reading_copies": [
-        { "label": "Arabic Wikisource (index)", "url": "https://ar.wikisource.org/wiki/المصباح_المنير/فهرس" }
+        {
+          "label": "Arabic Wikisource (index)",
+          "url": "https://ar.wikisource.org/wiki/المصباح_المنير/فهرس"
+        }
       ],
       "notes": "States the bāb explicitly (من باب ضرب)."
     },

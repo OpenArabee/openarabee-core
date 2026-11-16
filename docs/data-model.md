@@ -93,7 +93,9 @@ Each bāb records what the text says: the pattern (`wazn`), the model verb (`maw
 with past, imperfect and maṣdars; what the pattern is built for (`bina`, in the text's own
 words, with an English reading aid); its examples; and its Western equivalent with the kind
 of relation (`exact`, `vowel-class` for the six abwāb of Form I, `subsumed` for mulḥaq
-patterns that Western grammars do not number).
+patterns that Western grammars do not number, `model-verb` where the Western source lists
+the bāb's model verb under a Form with a different pattern). A bāb can have several Western
+equivalents; bāb 35 (اسلنقى) is the first case.
 
 ## 7. Validation rules
 
