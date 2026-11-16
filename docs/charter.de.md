@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.3 (Entwurf) – 16.11.2026 (Phase 0: D‑015 bis D‑019, O‑2, O‑6, O‑8, O‑9; Wright geprüft) |
+| **Version** | 0.4 (Entwurf) – 16.11.2026 (Phase 0 abgeschlossen: Abwāb an einem Druck geprüft; O‑2, O‑6, O‑8 erledigt; neu O‑10, O‑11) |
 | **Eigentümer** | Obada Obaid (GitHub: `obadaobaid`, Organisation: `OpenArabee`) |
 | **Status** | **Alle Entscheidungen sind vorläufig.** Änderungen laufen über das Entscheidungsprotokoll (Abschnitt 12). |
 | **Maßgeblich** | Die englische Fassung `charter.md`. Bei Abweichungen gilt sie. |
@@ -186,14 +186,16 @@ Aus dem Quranic Arabic Corpus v0.4 (77.429 Wörter):
 | # | Frage | Wer |
 |---|---|---|
 | O‑1 | Mindestens eine Fachperson für das Gold-Set gewinnen | Eigentümer |
-| O‑2 | ID- und Umschriftschema. Vorschlag aus Phase 0: D‑015, `docs/data-model.md` §2 | Eigentümer bestätigt |
+| O‑2 | Erledigt: ID- und Umschriftschema (D‑015, `docs/data-model.md` §2), vom Eigentümer per Merge am 16.11.2026 freigegeben | — |
 | O‑3 | Beim Quranic Arabic Corpus nach Nutzungsbedingungen fragen | Eigentümer, später |
 | O‑4 | Gehört die Wurzelliste in den Kern oder die Koran-Ebene? | Eigentümer, bei der Rechtsberatung |
 | O‑5 | Logo: mit Google Gemini erstellt; KI-Bilder sind meist nicht urheberrechtlich geschützt. In Phase 0 als saubere SVG neu zeichnen | KI zeichnet, Eigentümer gibt frei |
-| O‑6 | Zitierfähige Drucke der Referenzwerke festlegen. Für Wright erledigt (Cambridge 1896–98), für alle arabischen Werke offen. Vorschlag für den *Matn al-Bināʾ*: die Azhar-Sammlung «مجموع المتون المقرر دراستها بالأزهر الشريف», Kairo, al‑Maṭbaʿa al‑Jamāliyya, 1329/1911 (Qatar National Library, QNL:00022512); die Seiten wurden noch nicht eingesehen, die Abwāb-Tabelle zitiert deshalb weiter eine abgetippte Lesekopie und bleibt `draft` | KI schlägt vor, Eigentümer entscheidet |
+| O‑6 | Zitierfähige Drucke. Erledigt für Wright (Cambridge 1896–98) und für den *Matn al-Bināʾ*: in *Majmūʿ muhimmāt al-mutūn*, 4. Druck, Kairo, Muṣṭafā al‑Bābī al‑Ḥalabī, 1369/1949, S. 557 ff.; alle 35 Abwāb am 16.11.2026 an den Seitenbildern geprüft. Offen für die Wörterbücher (Mukhtār, Miṣbāḥ, Lane und die Ersatzwerke): Drucke wählen, wenn in 1b die ersten Verbeinträge entstehen | KI schlägt vor, Eigentümer entscheidet |
 | O‑7 | Marke eintragen lassen? (Suchen am 15.11.2026 ohne Treffer) | Eigentümer, später |
 | O‑8 | Erledigt am 16.11.2026: Wrights Tabellen in §35 (S. 29) und §68 (S. 48) an den Seitenbildern geprüft; alle 19 Muster stimmen mit `reference/forms.wright.json` überein. Befund: Wright führt اسلنقى als Beispiel der dritten vierradikaligen Form (§71, S. 49), der *Matn* als Mulḥaq (Bāb 35, Muster der Form XV). Beide Einordnungen stehen in der Abwāb-Tabelle. Noch an den Seitenbildern zu lesen: §§36–62 und §§91–93 | KI |
 | O‑9 | `CLA.md` ist ein Entwurf ohne rechtliche Prüfung und nicht in Kraft; vor dem ersten fremden Beitrag in der Rechtsberatung prüfen lassen | Eigentümer |
+| O‑10 | Was bedeuten die Prüfstatus für die Referenztabellen? Die Charta definiert sie für Verbeinträge. Vorschlag: Ein Wert einer Referenztabelle ist `source-verified`, wenn er am zitierfähigen Druck geprüft ist und ein zweiter Textzeuge desselben Werks übereinstimmt (gilt seit 16.11.2026 für alle 35 Abwāb). Bis zur Entscheidung bleiben die Tabellen `draft` | Eigentümer entscheidet |
+| O‑11 | Website: Braucht openarabee.com nach deutschem Recht ein Impressum und eine Datenschutzerklärung, und mit welchen Kontaktdaten? Klären, bevor die Seite beworben wird; in der Rechtsberatung fragen | Eigentümer |
 
 ---
 
