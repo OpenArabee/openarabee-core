@@ -3,34 +3,41 @@
   "sources": [
     {
       "id": "bina",
-      "title": "Matn al-Bināʾ (Bināʾ al-afʿāl)",
-      "title_ar": "متن البناء",
+      "title": "Matn Bināʾ al-afʿāl (Matn al-Bināʾ)",
+      "title_ar": "متن بناء الأفعال",
       "author": "attributed to ʿAbd Allāh al-Danqazī",
       "kind": "reference-work",
       "class": "A",
       "layer": "core",
-      "rights": "Public domain (work).",
-      "edition": "Proposed, not yet seen: in «مجموع المتون المقرر دراستها بالأزهر الشريف والمعاهد الدينية التابعة لإدارته», Cairo: al-Maṭbaʿa al-Jamāliyya, 1329 AH [1911/12], 8 + 35 pp. (Qatar National Library, QNL:00022512). Alternative: in the collection beginning with Marāḥ al-arwāḥ, ed. Ḥasan Shawqī, 1317 AH [1899/1900], 256 pp. (QNL:00005293).",
-      "edition_status": "to-confirm",
-      "bibliography_status": "draft",
+      "rights": "Public domain (work). The printing is a plain reprint of the text without editorial apparatus.",
+      "edition": "In: Majmūʿ muhimmāt al-mutūn (مجموع مهمات المتون، يشتمل على ستة وستين متنا), 4th printing, Cairo: Sharikat Maktabat wa-Maṭbaʿat Muṣṭafā al-Bābī al-Ḥalabī wa-Awlādih, 1369 AH / 1949 CE, text no. 10 of the grammar section, pp. 557 ff. (the abwāb: pp. 557-568; the next text begins on p. 570). Cited by page of this printing.",
+      "edition_status": "confirmed",
+      "bibliography_status": "checked",
       "reading_copies": [
+        {
+          "label": "Scan of the 1369/1949 printing (Internet Archive)",
+          "url": "https://archive.org/details/1369_20220720",
+          "note": "Title page and table of contents seen on 2026-11-16. Printed page p is leaf n(p-1) of the scan."
+        },
         {
           "label": "Typed copy, 18 pages (takw.in)",
           "url": "https://takw.in/files/البناء%20والأساس.pdf",
-          "note": "Modern typed copy without publication details; its title page misprints the author's name. Page references of the form 'reading copy (takw.in), p. N' refer to it. Its text layer is not usable; read from the page images."
+          "note": "Used for the first transcription. Without publication details; misprints the author's name and has a slip in bāb 18. The owner keeps a private copy."
         },
         {
           "label": "1911 Cairo collection, Qatar National Library",
           "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00022512",
-          "note": "Catalogue record read on 2026-11-16; the page viewer did not load in the session's browser, so the text has not been seen."
+          "note": "Catalogue record only; the page viewer loaded neither in the session's browser nor in the owner's (2026-11-16)."
         },
         {
           "label": "1899 collection, Qatar National Library",
           "url": "https://ediscovery.qnl.qa/islandora/object/QNL:00005293",
-          "note": "Catalogue record only; the record names al-Kafawī for the Bināʾ. Page viewer did not load."
+          "note": "Catalogue record only."
         }
       ],
-      "notes": "Defines the scheme 'bina-35'. Other classical authors count the abwāb differently (charter §3)."
+      "notes": "Defines the scheme 'bina-35'. Other classical authors count the abwāb differently (charter §3). Authorship: the 1949 printing heads the text «للمولى ملا عبد الله الدنقزي [القرن التاسع الهجري]»; the catalogue record of the 1899 collection (QNL:00005293) names Muḥammad ibn Ḥamīd al-Kafawī. The attribution is therefore recorded as uncertain.",
+      "author_ar": "ملا عبد الله الدنقزي",
+      "url": "https://archive.org/details/1369_20220720"
     },
     {
       "id": "shadha",
