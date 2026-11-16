@@ -3,80 +3,224 @@
   "$id": "https://openarabee.com/schema/v0/root.schema.json",
   "title": "OpenArabee root file (data/roots/<root id>.json)",
   "type": "object",
-  "required": ["schema_version", "root", "lexemes"],
+  "required": [
+    "schema_version",
+    "root",
+    "lexemes"
+  ],
   "additionalProperties": false,
   "properties": {
-    "schema_version": { "const": "0.1" },
+    "schema_version": {
+      "const": "0.1"
+    },
     "root": {
       "type": "object",
-      "required": ["id", "letters", "types"],
+      "required": [
+        "id",
+        "letters",
+        "types"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": { "$ref": "common.schema.json#/$defs/rootId" },
+        "id": {
+          "$ref": "common.schema.json#/$defs/rootId"
+        },
         "letters": {
           "description": "The radicals in order; hamza is always written ء.",
-          "type": "array", "minItems": 3, "maxItems": 5,
-          "items": { "type": "string", "pattern": "^[ءبت-غف-وي]$" }
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "pattern": "^[ءبت-غف-وي]$"
+          }
         },
         "types": {
           "description": "Derived from the letters by rule (tools/oa/arabic.py: root_types); checked by the validator, so it carries no source of its own. Empty for non-triliteral roots in schema v0.",
-          "type": "array", "uniqueItems": true,
-          "items": { "enum": ["sound", "hamzated", "doubled", "assimilated", "hollow", "defective", "doubly-weak"] }
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "sound",
+              "hamzated",
+              "doubled",
+              "assimilated",
+              "hollow",
+              "defective",
+              "doubly-weak"
+            ]
+          }
         },
         "core_meaning": {
-          "type": "object", "additionalProperties": false,
+          "type": "object",
+          "additionalProperties": false,
           "properties": {
-            "ar": { "$ref": "common.schema.json#/$defs/textFact" },
-            "en": { "$ref": "common.schema.json#/$defs/textFact" }
+            "ar": {
+              "$ref": "common.schema.json#/$defs/textFact"
+            },
+            "en": {
+              "$ref": "common.schema.json#/$defs/textFact"
+            }
           }
         }
       }
     },
-    "lexemes": { "type": "array", "items": { "$ref": "#/$defs/lexeme" } }
+    "lexemes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/lexeme"
+      }
+    }
   },
   "$defs": {
     "lexeme": {
       "type": "object",
-      "required": ["id", "type", "root"],
+      "required": [
+        "id",
+        "type",
+        "root"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": { "type": "string", "pattern": "^[vnp]-[a-z0-9]{2,12}-[1-9][0-9]*$" },
-        "type": { "enum": ["verb", "derived-noun", "primitive-noun", "particle", "proper-noun", "loanword"] },
-        "root": { "$ref": "common.schema.json#/$defs/rootId" },
-        "past": { "$ref": "common.schema.json#/$defs/arFact" },
-        "imperfect": { "$ref": "common.schema.json#/$defs/arFact" },
-        "classification": { "type": "array", "items": { "$ref": "#/$defs/classification" } },
-        "masdar": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/arFact" } },
-        "transitive": { "$ref": "common.schema.json#/$defs/boolFact" },
+        "id": {
+          "type": "string",
+          "pattern": "^[vnp]-[a-z0-9]{2,12}-[1-9][0-9]*$"
+        },
+        "type": {
+          "enum": [
+            "verb",
+            "derived-noun",
+            "primitive-noun",
+            "particle",
+            "proper-noun",
+            "loanword"
+          ]
+        },
+        "root": {
+          "$ref": "common.schema.json#/$defs/rootId"
+        },
+        "past": {
+          "$ref": "common.schema.json#/$defs/arFact"
+        },
+        "imperfect": {
+          "$ref": "common.schema.json#/$defs/arFact"
+        },
+        "classification": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/classification"
+          }
+        },
+        "masdar": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/arFact"
+          }
+        },
+        "transitive": {
+          "$ref": "common.schema.json#/$defs/boolFact"
+        },
         "gloss": {
           "description": "Short meaning.",
-          "type": "object", "additionalProperties": false,
+          "type": "object",
+          "additionalProperties": false,
           "properties": {
-            "ar": { "$ref": "common.schema.json#/$defs/textFact" },
-            "en": { "$ref": "common.schema.json#/$defs/textFact" },
-            "de": { "$ref": "common.schema.json#/$defs/textFact" }
+            "ar": {
+              "$ref": "common.schema.json#/$defs/textFact"
+            },
+            "en": {
+              "$ref": "common.schema.json#/$defs/textFact"
+            },
+            "de": {
+              "$ref": "common.schema.json#/$defs/textFact"
+            }
           }
         }
       },
       "allOf": [
-        { "if": { "properties": { "type": { "const": "verb" } } }, "then": { "required": ["past"] } }
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "verb"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "past"
+            ]
+          }
+        }
       ]
     },
     "classification": {
       "description": "Places a verb in one scheme. Several classifications per verb are allowed, also several within one scheme when sources differ (charter principle 6).",
       "type": "object",
-      "required": ["scheme", "value", "src", "status"],
+      "required": [
+        "scheme",
+        "value",
+        "src",
+        "status"
+      ],
       "additionalProperties": false,
       "properties": {
-        "scheme": { "enum": ["bina-35", "wright"] },
-        "value": { "type": "string" },
-        "src": { "$ref": "common.schema.json#/$defs/src" },
-        "status": { "$ref": "common.schema.json#/$defs/status" },
-        "note": { "type": "string", "minLength": 1 }
+        "scheme": {
+          "enum": [
+            "bina-35",
+            "wright"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "src": {
+          "$ref": "common.schema.json#/$defs/src"
+        },
+        "status": {
+          "$ref": "common.schema.json#/$defs/status"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checks": {
+          "$ref": "common.schema.json#/$defs/checks"
+        }
       },
       "allOf": [
-        { "if": { "properties": { "scheme": { "const": "bina-35" } } }, "then": { "properties": { "value": { "$ref": "common.schema.json#/$defs/babId" } } } },
-        { "if": { "properties": { "scheme": { "const": "wright" } } }, "then": { "properties": { "value": { "$ref": "common.schema.json#/$defs/formId" } } } }
+        {
+          "if": {
+            "properties": {
+              "scheme": {
+                "const": "bina-35"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "$ref": "common.schema.json#/$defs/babId"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "scheme": {
+                "const": "wright"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "$ref": "common.schema.json#/$defs/formId"
+              }
+            }
+          }
+        }
       ]
     }
   }

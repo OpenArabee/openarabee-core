@@ -65,6 +65,10 @@ def mutations():
     def schemes_disagree(d): verb(d)["classification"][1]["value"] = "IV"
     def vowel_against_bab(d): verb(d)["imperfect"]["value"] = "يَكْتِبُ"
     def tatweel(d): verb(d)["gloss"]["en"]["value"] = "to wriـte"
+    def verified_without_check(d): verb(d)["past"]["status"] = "source-verified"
+    def expert_without_person(d):
+        verb(d)["past"]["status"] = "expert-reviewed"
+        verb(d)["past"]["checks"] = [{"by": "ai:some-model", "date": "2026-11-16", "method": "compared with the source"}]
     def form_seven_transitive(d):
         verb(d)["classification"] = [{"scheme": "wright", "value": "VII", "src": ["wright-1896"], "status": "draft"}]
     return [
@@ -72,6 +76,7 @@ def mutations():
         (no_source, "S01"), (bare_value, "S01"), (wrong_root_id, "D01"), (wrong_types, "D02"),
         (foreign_lexeme, "D03"), (unknown_status, "S01"), (schemes_disagree, "D04"),
         (vowel_against_bab, "D05"), (tatweel, "F04"), (form_seven_transitive, "D06"),
+        (verified_without_check, "P03"), (expert_without_person, "P03"),
     ]
 
 
@@ -130,3 +135,16 @@ def test_root_types():
     assert root_types(["و", "ق", "ي"]) == ["doubly-weak"]
     assert root_types(["ء", "ت", "ي"]) == ["hamzated", "defective"]
     assert root_types(["ز", "ل", "ز", "ل"]) == []
+
+
+def test_a_check_by_a_person_allows_expert_reviewed(repo):
+    data = copy.deepcopy(FIXTURE)
+    verb(data)["past"]["status"] = "expert-reviewed"
+    verb(data)["past"]["checks"] = [{"by": "person:some-reviewer", "date": "2026-11-16", "method": "compared with the printed dictionary"}]
+    write_root(repo, data)
+    assert codes(repo) == []
+
+
+def test_generated_tables_are_current():
+    import render_tables
+    assert render_tables.render(REPO) == (REPO / "docs/tables.md").read_text(encoding="utf-8"), "run: python tools/render_tables.py"

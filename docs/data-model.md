@@ -10,6 +10,7 @@ Schema version `0.1`. All of this is provisional (charter §12, D-015 to D-018).
 | `reference/abwab.bina-35.json` | `schema/abwab.schema.json` | the 35 abwāb of *Matn al-Bināʾ* |
 | `reference/forms.wright.json` | `schema/forms.schema.json` | Forms I-XV and QI-QIV after Wright |
 | `sources/register.json` | `schema/source-register.schema.json` | every citable work |
+| `docs/tables.md` | generated | the two reference tables as a readable page (`python tools/render_tables.py`) |
 
 UTF-8, Unicode NFC, two-space indentation, no tatweel.
 
@@ -61,6 +62,14 @@ Every factual field is an object:
 - `status` is one of `draft`, `machine-checked`, `source-verified`, `expert-reviewed`,
   `expert-confirmed` (charter §5).
 - `note` records anything a reader needs to judge the value, e.g. a misprint in the copy used.
+- `checks` lists who verified the value: `by` is `ai:<model>` or `person:<GitHub name>`, with `date` and
+  `method`. A status from `source-verified` upwards needs at least one check; `expert-reviewed` needs a
+  check by a person, `expert-confirmed` by two different persons (rule P03). The status says *how far* a
+  value is verified, `checks` says *by whom*, so the website can show both.
+- For the reference tables `source-verified` means: compared with the citable printing, and a second
+  witness of the same work agrees (D-020). A check by the same AI model that made the first transcription
+  is weaker than an independent one; a person or a different model should add a second check
+  (charter §7, item 4).
 - Fields that are *derived by rule* from other fields carry no source of their own and are
   recomputed by the validator. In v0 this is only `root.types`.
 
@@ -108,6 +117,7 @@ equivalents; bāb 35 (اسلنقى) is the first case.
 | G01 | source ids are unique |
 | P01 | every `src` exists in the register |
 | P02 | only sources with layer `core` back core data |
+| P03 | a status from `source-verified` upwards names who checked the value (`checks`) |
 | T01-T03 | reference tables are complete, numbered 1-35 and grouped as declared |
 | T04 | every model verb and maṣdar is an instance of its pattern |
 | T05 | Western equivalents exist; an `exact` one has the same pattern |
