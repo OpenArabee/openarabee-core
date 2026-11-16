@@ -193,6 +193,9 @@
               },
               "note": {
                 "type": "string"
+              },
+              "checks": {
+                "$ref": "common.schema.json#/$defs/checks"
               }
             }
           }

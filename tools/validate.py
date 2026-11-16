@@ -23,6 +23,7 @@ from oa.ids import LEXEME_ID, root_id  # noqa: E402
 
 SCHEMA_BASE = "https://openarabee.com/schema/v0/"
 MANDATORY_VERB_FIELDS = ("past", "imperfect", "classification", "masdar", "transitive", "gloss")
+STATUS_ORDER = ["draft", "machine-checked", "source-verified", "expert-reviewed", "expert-confirmed"]
 INTRANSITIVE_FORMS = {"VII"}  # charter §7: a Form VII verb takes no object
 
 
@@ -99,7 +100,7 @@ def iter_facts(node, path=""):
 
 def check_provenance(data, rel: str, sources: dict[str, dict], report: Report, release: bool) -> None:
     """P01 every src exists in the register. P02 only core-layer sources in core data.
-    R02 (release) no value is still a draft."""
+    P03 a status from source-verified upwards names who checked the value. R02 (release) no value is still a draft."""
     for path, fact in iter_facts(data):
         for ref in fact["src"]:
             sid = ref if isinstance(ref, str) else ref.get("id")
@@ -107,6 +108,13 @@ def check_provenance(data, rel: str, sources: dict[str, dict], report: Report, r
                 report.error("P01", rel, f"{path}: source '{sid}' is not in sources/register.json")
             elif sources[sid]["layer"] != "core":
                 report.error("P02", rel, f"{path}: source '{sid}' is {sources[sid]['layer']}-only and cannot back core data")
+        level = STATUS_ORDER.index(fact["status"])
+        checks = fact.get("checks", [])
+        persons = {c["by"] for c in checks if c["by"].startswith("person:")}
+        if level >= 2 and not checks:
+            report.error("P03", rel, f"{path}: status {fact['status']} needs at least one entry in checks")
+        if level >= 3 and len(persons) < level - 2:
+            report.error("P03", rel, f"{path}: status {fact['status']} needs checks by {level - 2} different person(s)")
         if release and fact["status"] == "draft":
             report.error("R02", rel, f"{path}: still has status draft")
 

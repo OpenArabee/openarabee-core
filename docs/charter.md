@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.4 (draft) — 2026-11-16 (Phase 0 closed: abwāb collated with a printed edition; O‑2, O‑6, O‑8 done; new O‑10, O‑11) |
+| **Version** | 0.5 (draft) — 2026-11-16 (Phase 0 closed: abwāb collated with a printed edition; O‑2, O‑6, O‑8, O‑10 done; D‑020, D‑021; open O‑11) |
 | **Owner** | Obada Obaid (GitHub: `obadaobaid`, organisation: `OpenArabee`) |
 | **Status** | **All decisions in this document are provisional.** They can be changed at any time through the decision log (section 12). |
 | **Domain / brand** | openarabee.com · logo: `assets/logo.png` · colours (sampled from the logo): navy ≈ `#0A2A45`, gold ≈ `#C29A52` |
@@ -256,7 +256,7 @@ Consequence for the product: function words are taught alongside roots — they 
 | O‑7 | Trademark: exact-name searches at DPMA, EUIPO, WIPO were empty on 2026‑11‑15; similar names exist ("OpenArabic" app, "arabee" platform). Decide later whether to register | Owner |
 | O‑8 | Done 2026‑11‑16: Wright's tables in §35 (p. 29) and §68 (p. 48) were collated against the page images; all 19 patterns agree with `reference/forms.wright.json`. Finding: Wright prints اسلنقى as an example of the third quadriliteral Form (§71, p. 49), while *Matn al-Bināʾ* has it as mulḥaq (bāb 35, pattern of Form XV). Both classifications are recorded in the abwāb table. Still to read in the page images: §§36–62 and §§91–93 | AI |
 | O‑9 | `CLA.md` is a draft without legal review and not in force; review it in the legal consultation before the first external contribution | Owner |
-| O‑10 | What do the verification statuses mean for the reference tables? The charter defines them for verb entries. Proposal: a value of a reference table is `source-verified` when it has been collated against the citable printing and a second witness of the same work agrees (true for all 35 abwāb since 2026‑11‑16), `expert-reviewed` as for verbs. Until decided, the tables stay `draft` | Owner decides |
+| O‑10 | Done 2026‑11‑16: decided as D‑020 and D‑021 | — |
 | O‑11 | Website: does openarabee.com need a legal notice (Impressum) and a privacy notice under German law, and with which contact details? To settle before the site is advertised; ask in the legal consultation | Owner |
 
 ---
@@ -286,6 +286,8 @@ All entries are provisional.
 | D‑017 | 2026‑11‑15 | Arabic citation forms are spelled one normalised way (`docs/data-model.md` §4); deviations of the source are recorded in a note |
 | D‑018 | 2026‑11‑15 | Licence split inside `openarabee-core`: code and schema MIT; data, reference tables, source register and docs CC BY 4.0 |
 | D‑019 | 2026‑11‑15 | Work happens on branches; the owner approves by merging the pull request into `main` |
+| D‑020 | 2026‑11‑16 | Statuses in the reference tables: a value is `source-verified` when it has been compared with the citable printing and a second witness of the same work agrees; `expert-reviewed` and `expert-confirmed` as for verbs |
+| D‑021 | 2026‑11‑16 | Every value records who verified it in a field `checks` (`ai:<model>` or `person:<name>`, date, method), separate from the status. From `source-verified` upwards at least one check is required; the expert statuses require checks by persons. A check by the model that also made the first draft counts, but an independent second check (a person or another model) is the aim |
 
 ---
 

@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "scheme": "bina-35",
   "title": "The 35 abwāb of Matn al-Bināʾ",
-  "collation": "First transcribed on 2026-11-15 from a typed reading copy (takw.in, pp. 2-15), then collated entry by entry on 2026-11-16 against the page images of the printed edition listed under source 'bina' (Majmūʿ muhimmāt al-mutūn, 4th printing, Cairo 1369/1949, pp. 557-568). All 35 patterns, model verbs, maṣdars, statements of use and examples agree with the print, except: the print confirms افعيلالا for bāb 18 (the reading copy has a slip), and it writes the maṣdar of bāb 7 with hamza. Page references are to the printed edition; group labels use the wording of the text. Western equivalents were checked on 2026-11-16 against the page images of Wright vol. I (§35, §§66-72). Spelling is normalised as described in docs/data-model.md §4 (no case endings on maṣdars, hamzat al-waṣl written اِ, no sukūn on long vowels). Examples: vowel marks kept on the verb only. The first six abwāb give no maṣdar because the text gives none. Statuses are still draft: the charter defines the higher statuses for verb entries, and what they mean for a reference table is an open decision (O-10).",
+  "collation": "First transcribed on 2026-11-15 from a typed reading copy (takw.in, pp. 2-15), then collated entry by entry on 2026-11-16 against the page images of the printed edition listed under source 'bina' (Majmūʿ muhimmāt al-mutūn, 4th printing, Cairo 1369/1949, pp. 557-568). All 35 patterns, model verbs, maṣdars, statements of use and examples agree with the print, except: the print confirms افعيلالا for bāb 18 (the reading copy has a slip), and it writes the maṣdar of bāb 7 with hamza. Page references are to the printed edition; group labels use the wording of the text. Western equivalents were checked on 2026-11-16 against the page images of Wright vol. I (§35, §§66-72). Spelling is normalised as described in docs/data-model.md §4 (no case endings on maṣdars, hamzat al-waṣl written اِ, no sukūn on long vowels). Examples: vowel marks kept on the verb only. The first six abwāb give no maṣdar because the text gives none. Status (D-020): a value is source-verified when it was compared with the citable printing and a second witness of the same work agrees; each such value names who checked it (checks). Still draft: the group labels, the English readings, the Western equivalents, the maṣdar pattern of bāb 18 (the two witnesses differ) and the statements of use of abwāb 9 and 18 (wording adjusted to the print).",
   "groups": [
     {
       "id": "thulathi-mujarrad",
@@ -170,7 +170,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعُلُ",
@@ -180,7 +187,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -192,7 +206,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَنْصُرُ",
@@ -202,7 +223,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -214,7 +242,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -228,7 +263,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "خَرَجَ زيد",
@@ -238,7 +280,14 @@
               "loc": "p. 557"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -274,7 +323,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعِلُ",
@@ -284,7 +340,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -296,7 +359,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَضْرِبُ",
@@ -306,7 +376,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -318,7 +395,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -332,7 +416,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "جَلَسَ زيد",
@@ -342,7 +433,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -378,7 +476,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَلُ",
@@ -388,7 +493,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -400,7 +512,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْتَحُ",
@@ -410,7 +529,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -422,7 +548,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -446,7 +579,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "ذَهَبَ زيد",
@@ -456,7 +596,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -492,7 +639,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَلُ",
@@ -502,7 +656,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -514,7 +675,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَعْلَمُ",
@@ -524,7 +692,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -536,7 +711,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -550,7 +732,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "وَجِلَ زيد",
@@ -560,7 +749,14 @@
               "loc": "p. 558"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -596,7 +792,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعُلُ",
@@ -606,7 +809,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -618,7 +828,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَحْسُنُ",
@@ -628,7 +845,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -640,7 +864,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Always intransitive."
@@ -654,7 +885,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -690,7 +928,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعِلُ",
@@ -700,7 +945,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "mawzun": {
@@ -712,7 +964,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَحْسِبُ",
@@ -722,7 +981,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       },
       "bina": {
@@ -734,7 +1000,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -748,7 +1021,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "وَرِثَ زيد",
@@ -758,7 +1038,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -794,7 +1081,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفْعِلُ",
@@ -804,7 +1098,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -815,7 +1116,14 @@
                 "loc": "p. 559"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -828,7 +1136,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُكْرِمُ",
@@ -838,7 +1153,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -849,7 +1171,14 @@
                 "loc": "p. 559"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -862,7 +1191,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -876,7 +1212,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "أَصْبَحَ الرجل",
@@ -886,7 +1229,14 @@
               "loc": "p. 559"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -923,7 +1273,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعِّلُ",
@@ -933,7 +1290,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -944,7 +1308,14 @@
                 "loc": "pp. 559-560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -957,7 +1328,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَرِّحُ",
@@ -967,7 +1345,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -978,7 +1363,14 @@
                 "loc": "pp. 559-560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -991,7 +1383,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "For plurality or intensity of the action, in the verb, the agent or the object."
@@ -1005,7 +1404,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "مَوَّتَ الإبل",
@@ -1015,7 +1421,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "غَلَّقَ زيد الباب",
@@ -1025,7 +1438,14 @@
               "loc": "pp. 559-560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1061,7 +1481,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَاعِلُ",
@@ -1071,7 +1498,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1082,7 +1516,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعَال",
@@ -1092,7 +1533,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِيعَال",
@@ -1102,7 +1550,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1115,7 +1570,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُقَاتِلُ",
@@ -1125,7 +1587,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1136,7 +1605,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "قِتَال",
@@ -1146,7 +1622,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "قِيتَال",
@@ -1156,7 +1639,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1183,7 +1673,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "قَاتَلَهُمُ الله",
@@ -1193,7 +1690,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1229,7 +1733,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَنْفَعِلُ",
@@ -1239,7 +1750,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1250,7 +1768,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1263,7 +1788,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَنْكَسِرُ",
@@ -1273,7 +1805,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1284,7 +1823,14 @@
                 "loc": "p. 560"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1297,7 +1843,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "For muṭāwaʿa: the effect of a transitive action taking place."
@@ -1311,7 +1864,14 @@
               "loc": "p. 560"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1347,7 +1907,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْتَعِلُ",
@@ -1357,7 +1924,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1368,7 +1942,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1381,7 +1962,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَجْتَمِعُ",
@@ -1391,7 +1979,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1402,7 +1997,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1415,7 +2017,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "Also for muṭāwaʿa."
@@ -1429,7 +2038,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1465,7 +2081,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَلُّ",
@@ -1475,7 +2098,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1486,7 +2116,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1499,7 +2136,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَحْمَرُّ",
@@ -1509,7 +2153,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1520,7 +2171,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1533,7 +2191,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intensive of an intransitive; some say: for colours and defects."
@@ -1547,7 +2212,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "اِعْوَرَّ زيد",
@@ -1557,7 +2229,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1593,7 +2272,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَعَّلُ",
@@ -1603,7 +2289,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1614,7 +2307,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1627,7 +2327,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَكَلَّمُ",
@@ -1637,7 +2344,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1648,7 +2362,14 @@
                 "loc": "p. 561"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1661,7 +2382,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "For takalluf: obtaining something step by step, with effort."
@@ -1675,7 +2403,14 @@
               "loc": "p. 561"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1711,7 +2446,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَاعَلُ",
@@ -1721,7 +2463,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1732,7 +2481,14 @@
                 "loc": "pp. 561-562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1745,7 +2501,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَبَاعَدُ",
@@ -1755,7 +2518,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1766,7 +2536,14 @@
                 "loc": "pp. 561-562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1779,7 +2556,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "For an action shared between two or more."
@@ -1793,7 +2577,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "تَصَالَحَ القوم",
@@ -1803,7 +2594,14 @@
               "loc": "pp. 561-562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1839,7 +2637,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَسْتَفْعِلُ",
@@ -1849,7 +2654,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1860,7 +2672,14 @@
                 "loc": "p. 562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1873,7 +2692,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَسْتَخْرِجُ",
@@ -1883,7 +2709,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1894,7 +2727,14 @@
                 "loc": "p. 562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -1907,7 +2747,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -1921,7 +2768,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "اِسْتَحْجَرَ الطين",
@@ -1931,7 +2785,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "اِسْتَغْفَرَ الله",
@@ -1941,7 +2802,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -1978,7 +2846,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَوْعِلُ",
@@ -1988,7 +2863,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -1999,7 +2881,14 @@
                 "loc": "p. 562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2012,7 +2901,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَعْشَوْشِبُ",
@@ -2022,7 +2918,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2033,7 +2936,14 @@
                 "loc": "p. 562"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2046,7 +2956,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intensive of an intransitive."
@@ -2060,7 +2977,14 @@
               "loc": "p. 562"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2096,7 +3020,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَوِّلُ",
@@ -2106,7 +3037,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2117,7 +3055,14 @@
                 "loc": "pp. 562-563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2130,7 +3075,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَجْلَوِّذُ",
@@ -2140,7 +3092,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2151,7 +3110,14 @@
                 "loc": "pp. 562-563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2164,7 +3130,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Also intensive of an intransitive."
@@ -2178,7 +3151,14 @@
               "loc": "pp. 562-563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2214,7 +3194,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَالُّ",
@@ -2224,7 +3211,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2249,7 +3243,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَحْمَارُّ",
@@ -2259,7 +3260,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2270,7 +3278,14 @@
                 "loc": "p. 563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2297,7 +3312,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2333,7 +3355,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعْلِلُ",
@@ -2343,7 +3372,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2354,7 +3390,14 @@
                 "loc": "p. 563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعْلَال",
@@ -2364,7 +3407,14 @@
                 "loc": "p. 563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2377,7 +3427,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُدَحْرِجُ",
@@ -2387,7 +3444,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2398,7 +3462,14 @@
                 "loc": "p. 563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "دِحْرَاج",
@@ -2408,7 +3479,14 @@
                 "loc": "p. 563"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2421,7 +3499,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "mostly-transitive",
         "en": "Mostly transitive, sometimes intransitive."
@@ -2435,7 +3520,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         {
           "value": "دَرْبَخَ زيد",
@@ -2445,7 +3537,14 @@
               "loc": "p. 563"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2482,7 +3581,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَوْعِلُ",
@@ -2492,7 +3598,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2503,7 +3616,14 @@
                 "loc": "pp. 563-564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِيعَال",
@@ -2513,7 +3633,14 @@
                 "loc": "pp. 563-564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2526,7 +3653,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُحَوْقِلُ",
@@ -2536,7 +3670,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2547,7 +3688,14 @@
                 "loc": "pp. 563-564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "حِيقَال",
@@ -2557,7 +3705,14 @@
                 "loc": "pp. 563-564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2570,7 +3725,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -2584,7 +3746,14 @@
               "loc": "pp. 563-564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2621,7 +3790,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَيْعِلُ",
@@ -2631,7 +3807,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2642,7 +3825,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِيعَال",
@@ -2652,7 +3842,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2665,7 +3862,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُبَيْطِرُ",
@@ -2675,7 +3879,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2686,7 +3897,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "بِيطَار",
@@ -2696,7 +3914,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2709,7 +3934,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "transitive-only",
         "en": "Transitive only."
@@ -2723,7 +3955,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2760,7 +3999,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعْوِلُ",
@@ -2770,7 +4016,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2781,7 +4034,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعْوَال",
@@ -2791,7 +4051,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2804,7 +4071,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُجَهْوِرُ",
@@ -2814,7 +4088,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2825,7 +4106,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "جِهْوَار",
@@ -2835,7 +4123,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2848,7 +4143,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "transitive-only",
         "en": "Also transitive."
@@ -2862,7 +4164,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -2899,7 +4208,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعْيِلُ",
@@ -2909,7 +4225,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2920,7 +4243,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعْيَال",
@@ -2930,7 +4260,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2943,7 +4280,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُعَثْيِرُ",
@@ -2953,7 +4297,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -2964,7 +4315,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "عِثْيَار",
@@ -2974,7 +4332,14 @@
                 "loc": "p. 564"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -2987,7 +4352,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -3001,7 +4373,14 @@
               "loc": "p. 564"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3038,7 +4417,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعْلِلُ",
@@ -3048,7 +4434,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3059,7 +4452,14 @@
                 "loc": "pp. 564-565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعْلَال",
@@ -3069,7 +4469,14 @@
                 "loc": "pp. 564-565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3082,7 +4489,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُجَلْبِبُ",
@@ -3092,7 +4506,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3103,7 +4524,14 @@
                 "loc": "pp. 564-565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "جِلْبَاب",
@@ -3113,7 +4541,14 @@
                 "loc": "pp. 564-565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3126,7 +4561,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "transitive-only",
         "en": "Transitive only."
@@ -3140,7 +4582,14 @@
               "loc": "pp. 564-565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3178,7 +4627,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُفَعْلِي",
@@ -3188,7 +4644,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3199,7 +4662,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "فِعْلَاء",
@@ -3209,7 +4679,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3222,7 +4699,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يُسَلْقِي",
@@ -3232,7 +4716,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3243,7 +4734,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           },
           {
             "value": "سِلْقَاء",
@@ -3253,7 +4751,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3266,7 +4771,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive only."
@@ -3280,7 +4792,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3318,7 +4837,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَعْلَلُ",
@@ -3328,7 +4854,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3339,7 +4872,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3352,7 +4892,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَدَحْرَجُ",
@@ -3362,7 +4909,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3373,7 +4927,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3386,7 +4947,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "For muṭāwaʿa."
@@ -3400,7 +4968,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3437,7 +5012,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَنْلِلُ",
@@ -3447,7 +5029,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3458,7 +5047,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3471,7 +5067,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَحْرَنْجِمُ",
@@ -3481,7 +5084,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3492,7 +5102,14 @@
                 "loc": "p. 565"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3505,7 +5122,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "not-stated",
         "en": "Also for muṭāwaʿa."
@@ -3519,7 +5143,14 @@
               "loc": "p. 565"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3556,7 +5187,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَلِلُّ",
@@ -3566,7 +5204,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3577,7 +5222,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3590,7 +5242,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَقْشَعِرُّ",
@@ -3600,7 +5259,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3611,7 +5277,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3624,7 +5297,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intensive of an intransitive."
@@ -3638,7 +5318,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3675,7 +5362,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَعْلَلُ",
@@ -3685,7 +5379,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3696,7 +5397,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3709,7 +5417,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَجَلْبَبُ",
@@ -3719,7 +5434,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3730,7 +5452,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3743,7 +5472,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -3757,7 +5493,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3794,7 +5537,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَوْعَلُ",
@@ -3804,7 +5554,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3815,7 +5572,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3828,7 +5592,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَجَوْرَبُ",
@@ -3838,7 +5609,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3849,7 +5627,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3862,7 +5647,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -3876,7 +5668,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -3913,7 +5712,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَيْعَلُ",
@@ -3923,7 +5729,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3934,7 +5747,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3947,7 +5767,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَشَيْطَنُ",
@@ -3957,7 +5784,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -3968,7 +5802,14 @@
                 "loc": "p. 566"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -3981,7 +5822,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -3995,7 +5843,14 @@
               "loc": "p. 566"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -4032,7 +5887,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَعْوَلُ",
@@ -4042,7 +5904,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4053,7 +5922,14 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4066,7 +5942,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَرَهْوَكُ",
@@ -4076,7 +5959,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4087,7 +5977,14 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4100,7 +5997,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -4114,7 +6018,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -4151,7 +6062,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَفَعْلَى",
@@ -4161,7 +6079,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4172,8 +6097,15 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft",
-            "note": "Printed in the accusative (تفعليا، تسلقيا); stored without case ending, with the final yāʾ written."
+            "status": "source-verified",
+            "note": "Printed in the accusative (تفعليا، تسلقيا); stored without case ending, with the final yāʾ written.",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4186,7 +6118,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَتَسَلْقَى",
@@ -4196,7 +6135,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4207,7 +6153,14 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4220,7 +6173,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -4234,7 +6194,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -4271,7 +6238,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَنْلِلُ",
@@ -4281,7 +6255,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4292,7 +6273,14 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4305,7 +6293,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَقْعَنْسِسُ",
@@ -4315,7 +6310,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4326,7 +6328,14 @@
                 "loc": "p. 567"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4339,7 +6348,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intensive of an intransitive."
@@ -4353,7 +6369,14 @@
               "loc": "p. 567"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [
@@ -4391,7 +6414,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَفْعَنْلِي",
@@ -4401,7 +6431,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4412,7 +6449,14 @@
                 "loc": "p. 568"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4425,7 +6469,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "imperfect": {
           "value": "يَسْلَنْقِي",
@@ -4435,7 +6486,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "masdar": [
           {
@@ -4446,7 +6504,14 @@
                 "loc": "p. 568"
               }
             ],
-            "status": "draft"
+            "status": "source-verified",
+            "checks": [
+              {
+                "by": "ai:claude-fable-5.2",
+                "date": "2026-11-16",
+                "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+              }
+            ]
           }
         ]
       },
@@ -4459,7 +6524,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         },
         "transitivity": "intransitive-only",
         "en": "Intransitive."
@@ -4473,7 +6545,14 @@
               "loc": "p. 568"
             }
           ],
-          "status": "draft"
+          "status": "source-verified",
+          "checks": [
+            {
+              "by": "ai:claude-fable-5.2",
+              "date": "2026-11-16",
+              "method": "Compared with the page image of the 1369/1949 printing; the typed reading copy (takw.in) agrees."
+            }
+          ]
         }
       ],
       "western": [

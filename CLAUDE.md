@@ -21,6 +21,7 @@ that check it. Everything else (SQLite, CSV, website) is generated from the JSON
 4. **New values start as `draft`.** Only raise a status when its condition in charter §5 is
    met: `machine-checked` after rules and tool comparison pass, `source-verified` after two
    independent free sources agree, `expert-*` only on a human reviewer's decision.
+   For the reference tables `source-verified` is defined in D-020.
 5. **Record disagreement, do not resolve it silently.** When sources or schools classify a
    verb differently, add all classifications with their sources.
 6. **Canonical JSON is edited deliberately; generated files are never edited by hand.**
@@ -32,6 +33,8 @@ that check it. Everything else (SQLite, CSV, website) is generated from the JSON
 ## How to work
 
 - Run `python tools/validate.py` and `python -m pytest` before every commit. Both must pass.
+- After changing a reference table run `python tools/render_tables.py`; `docs/tables.md` is generated.
+- When you raise a status, add an entry to `checks` (`by`, `date`, `method`); never raise a status for a value you have not compared with the source yourself in this session.
 - IDs, spelling of Arabic values and the validation rules are defined in `docs/data-model.md`.
   Generate root ids with `python tools/oa/ids.py كتب`; never invent them by hand.
 - Changes to decisions go into the decision log (charter §12) in the same pull request, in

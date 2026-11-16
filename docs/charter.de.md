@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.4 (Entwurf) – 16.11.2026 (Phase 0 abgeschlossen: Abwāb an einem Druck geprüft; O‑2, O‑6, O‑8 erledigt; neu O‑10, O‑11) |
+| **Version** | 0.5 (Entwurf) – 16.11.2026 (Phase 0 abgeschlossen: Abwāb an einem Druck geprüft; O‑2, O‑6, O‑8, O‑10 erledigt; D‑020, D‑021; offen O‑11) |
 | **Eigentümer** | Obada Obaid (GitHub: `obadaobaid`, Organisation: `OpenArabee`) |
 | **Status** | **Alle Entscheidungen sind vorläufig.** Änderungen laufen über das Entscheidungsprotokoll (Abschnitt 12). |
 | **Maßgeblich** | Die englische Fassung `charter.md`. Bei Abweichungen gilt sie. |
@@ -194,14 +194,14 @@ Aus dem Quranic Arabic Corpus v0.4 (77.429 Wörter):
 | O‑7 | Marke eintragen lassen? (Suchen am 15.11.2026 ohne Treffer) | Eigentümer, später |
 | O‑8 | Erledigt am 16.11.2026: Wrights Tabellen in §35 (S. 29) und §68 (S. 48) an den Seitenbildern geprüft; alle 19 Muster stimmen mit `reference/forms.wright.json` überein. Befund: Wright führt اسلنقى als Beispiel der dritten vierradikaligen Form (§71, S. 49), der *Matn* als Mulḥaq (Bāb 35, Muster der Form XV). Beide Einordnungen stehen in der Abwāb-Tabelle. Noch an den Seitenbildern zu lesen: §§36–62 und §§91–93 | KI |
 | O‑9 | `CLA.md` ist ein Entwurf ohne rechtliche Prüfung und nicht in Kraft; vor dem ersten fremden Beitrag in der Rechtsberatung prüfen lassen | Eigentümer |
-| O‑10 | Was bedeuten die Prüfstatus für die Referenztabellen? Die Charta definiert sie für Verbeinträge. Vorschlag: Ein Wert einer Referenztabelle ist `source-verified`, wenn er am zitierfähigen Druck geprüft ist und ein zweiter Textzeuge desselben Werks übereinstimmt (gilt seit 16.11.2026 für alle 35 Abwāb). Bis zur Entscheidung bleiben die Tabellen `draft` | Eigentümer entscheidet |
+| O‑10 | Erledigt am 16.11.2026: entschieden als D‑020 und D‑021 | — |
 | O‑11 | Website: Braucht openarabee.com nach deutschem Recht ein Impressum und eine Datenschutzerklärung, und mit welchen Kontaktdaten? Klären, bevor die Seite beworben wird; in der Rechtsberatung fragen | Eigentümer |
 
 ---
 
 ## 12. Entscheidungsprotokoll
 
-Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑019) steht in der englischen Fassung. Kurzfassung:
+Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑021) steht in der englischen Fassung. Kurzfassung:
 
 - Name **OpenArabee**, Domain openarabee.com, Organisation `OpenArabee`
 - Lizenzen MIT / CC BY 4.0 / CLA; zwei Ebenen (Kern und Koran)
@@ -218,3 +218,5 @@ Alle Einträge sind vorläufig. Die vollständige Liste (D‑001 bis D‑019) st
 - einheitliche Schreibung arabischer Zitierformen (D‑017)
 - Code und Schema MIT; Daten, Tabellen, Quellenregister und Doku CC BY 4.0 (D‑018)
 - Arbeit auf Branches; der Eigentümer gibt per Merge frei (D‑019)
+- Referenztabellen: `source-verified` heißt am zitierfähigen Druck geprüft und von einem zweiten Textzeugen bestätigt (D‑020)
+- Jeder Wert nennt im Feld `checks`, wer ihn geprüft hat (`ai:<Modell>` oder `person:<Name>`, Datum, Methode), getrennt vom Status; die Fachstufen verlangen Prüfungen durch Personen (D‑021)
