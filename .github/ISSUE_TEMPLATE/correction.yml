@@ -1,0 +1,53 @@
+name: Suggest a correction
+description: Report a wrong or doubtful value in the dataset.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every value in OpenArabee points to a source, so a correction needs one too.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The id shown on the page (for example v-ktb-1 or bina-12) or the Arabic word.
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: Which value is wrong? For example imperfect, maṣdar, bāb, meaning.
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value
+  - type: input
+    id: proposed
+    attributes:
+      label: Proposed value
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where can this be checked?
+      description: Work, edition, page or headword. Works under copyright can be named as a hint, but the value must be confirmed in a free source before it is changed.
+    validations:
+      required: true
+  - type: dropdown
+    id: background
+    attributes:
+      label: Your background (optional)
+      options:
+        - Learner
+        - Native speaker
+        - Teacher of Arabic
+        - Trained in Arabic linguistics or Quranic studies
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

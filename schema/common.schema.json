@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openarabee.com/schema/v0/common.schema.json",
+  "title": "OpenArabee common definitions (schema v0)",
+  "$defs": {
+    "status": {
+      "description": "Verification status (charter §5). Shown publicly with every value.",
+      "enum": ["draft", "machine-checked", "source-verified", "expert-reviewed", "expert-confirmed"]
+    },
+    "sourceId": { "type": "string", "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$" },
+    "srcRef": {
+      "description": "Reference to an entry of sources/register.json: the bare id, or an object that adds the exact place.",
+      "oneOf": [
+        { "$ref": "#/$defs/sourceId" },
+        {
+          "type": "object",
+          "required": ["id"],
+          "additionalProperties": false,
+          "properties": {
+            "id": { "$ref": "#/$defs/sourceId" },
+            "loc": { "type": "string", "minLength": 1, "description": "Place in the work: page, paragraph, headword (s.v.)." },
+            "note": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "src": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/srcRef" } },
+    "arabic": {
+      "description": "Arabic letters, vowel marks and spaces only; no tatweel; NFC.",
+      "type": "string",
+      "pattern": "^[ء-غف-ْٰٱ ]+$"
+    },
+    "arFact": {
+      "type": "object",
+      "required": ["value", "src", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "$ref": "#/$defs/arabic" },
+        "src": { "$ref": "#/$defs/src" },
+        "status": { "$ref": "#/$defs/status" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "textFact": {
+      "type": "object",
+      "required": ["value", "src", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": "string", "minLength": 1 },
+        "src": { "$ref": "#/$defs/src" },
+        "status": { "$ref": "#/$defs/status" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "boolFact": {
+      "type": "object",
+      "required": ["value", "src", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": "boolean" },
+        "src": { "$ref": "#/$defs/src" },
+        "status": { "$ref": "#/$defs/status" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "rootId": { "type": "string", "pattern": "^r-[a-z0-9]{3,5}$" },
+    "babId": { "type": "string", "pattern": "^bina-(0[1-9]|[12][0-9]|3[0-5])$" },
+    "formId": { "enum": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "QI", "QII", "QIII", "QIV"] }
+  }
+}

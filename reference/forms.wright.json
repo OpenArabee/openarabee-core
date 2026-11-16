@@ -1,0 +1,474 @@
+{
+  "schema_version": "0.1",
+  "scheme": "wright",
+  "title": "Forms I-XV of the triliteral verb and Forms I-IV of the quadriliteral verb, after Wright",
+  "collation": "Collated on 2026-11-16 against the page images of volume I (Internet Archive scan of the Toronto copy): the fifteen patterns of the triliteral verb were compared letter by letter with the table in §35 (p. 29), the four quadriliteral patterns with the table in §68 (p. 48); all nineteen agree. §66 (pp. 46-47) and §§67-72 (pp. 47-49) were read in full. Not yet seen in the page images: the paragraphs on Forms I-XI (§§36-62, start pages from the table of contents) and §§91-93. Status stays draft until a second, independent check. Spelling as in docs/data-model.md §4 (Wright prints hamzat al-waṣl as alif with kasra, as here).",
+  "forms": [
+    {
+      "id": "I",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "فَعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§36-38, p. 30 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§36-38, p. 30 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "II",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "فَعَّلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§39-41, p. 31 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§39-41, p. 31 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "III",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "فَاعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§42-43, p. 32 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§42-43, p. 32 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "IV",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "أَفْعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§44-45, p. 34 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§44-45, p. 34 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "V",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "تَفَعَّلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§46-48, p. 36 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§46-48, p. 36 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "VI",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "تَفَاعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§49-50, p. 38 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§49-50, p. 38 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "VII",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِنْفَعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§51-53, p. 40 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§51-53, p. 40 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "VIII",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْتَعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§54-57, p. 41 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§54-57, p. 41 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "IX",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَلَّ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§58-59, p. 43 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§58-59, p. 43 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "X",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِسْتَفْعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§60-62, p. 44 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§60-62, p. 44 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "XI",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَالَّ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§58-59, p. 43 ff.",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§58-59, p. 43 ff."
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "XII",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَوْعَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§66, p. 46",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §66, p. 46"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "XIII",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَوَّلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§66, p. 46",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §66, p. 46"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "XIV",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَنْلَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§66, pp. 46-47",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §66, pp. 46-47"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "XV",
+      "kind": "triliteral",
+      "pattern": {
+        "value": "اِفْعَنْلَى",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §35, p. 29"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§66, p. 47",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §66, p. 47"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "QI",
+      "kind": "quadriliteral",
+      "pattern": {
+        "value": "فَعْلَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §68, p. 48"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§§68-69, p. 48",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §§68-69, p. 48"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "QII",
+      "kind": "quadriliteral",
+      "pattern": {
+        "value": "تَفَعْلَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §68, p. 48"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§70, p. 48",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §70, p. 48"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "QIII",
+      "kind": "quadriliteral",
+      "pattern": {
+        "value": "اِفْعَنْلَلَ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §68, p. 48"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§71, p. 49",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §71, p. 49"
+          }
+        ],
+        "status": "draft"
+      }
+    },
+    {
+      "id": "QIV",
+      "kind": "quadriliteral",
+      "pattern": {
+        "value": "اِفْعَلَلَّ",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §68, p. 48"
+          }
+        ],
+        "status": "draft"
+      },
+      "treated_in": {
+        "value": "§72, p. 49",
+        "src": [
+          {
+            "id": "wright-1896",
+            "loc": "vol. I, §72, p. 49"
+          }
+        ],
+        "status": "draft"
+      }
+    }
+  ],
+  "imperfect_vowel": {
+    "value": "Form I: a perfect with a on the second radical takes u or i in the imperfect, and many verbs admit both (§91); a perfect with i takes a, a few verbs keep i (§92); a perfect with u keeps u (§93).",
+    "src": [
+      {
+        "id": "wright-1896",
+        "loc": "vol. I, §§91-93, p. 57 ff."
+      }
+    ],
+    "status": "draft"
+  }
+}
